@@ -1,0 +1,9 @@
+# Copy Studio data from Individual identity to Team identity
+
+In a Team account's ''Myspace > Account > Data Management'', it supports ****[one-click copy]**** of presets from ''Studio-My Space'' under the Individual identity to ''Studio-My Space'' under its Team identity.
+
+![](https://docs.d5render.com/~gitbook/image?url=https%3A%2F%2F3611830798-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MjbN1iGmN_HBnj_fyU9%252Fuploads%252F71cjAqQGnas2Rum6dr5d%252Ff3f6078388cb5c0e7df691189c3acd66.png%3Falt%3Dmedia%26token%3Df9ba2df9-d62b-4d0c-a4f2-fd1e23b6660f&width=768&dpr=3&quality=100&sign=86199047&sv=2)![](https://docs.d5render.com/~gitbook/image?url=https%3A%2F%2F3611830798-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MjbN1iGmN_HBnj_fyU9%252Fuploads%252F8OCVMotxqMbgOYQ3CGth%252F608e01a15198c7f128d033231b6db992.png%3Falt%3Dmedia%26token%3D07697e6a-33f1-4bc7-beba-3c1f063d8237&width=768&dpr=3&quality=100&sign=8dc020f4&sv=2)![](https://docs.d5render.com/~gitbook/image?url=https%3A%2F%2F3611830798-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MjbN1iGmN_HBnj_fyU9%252Fuploads%252FbZMLEgNKtkcGJFuuiMHX%252Ff9fbfda51e8607396d8ad1c2500f7c6d.png%3Falt%3Dmedia%26token%3De8d85ec4-df1b-4c2b-a45e-34cc3e08e54c&width=768&dpr=3&quality=100&sign=777811f5&sv=2)
+> ℹ️ > ****Note:****
+
+- After completing the copy, there is no need to exit D5 client, and you can directly start D5 Studio to trigger the automatic update. If Studio is currently on, it can be refreshed by switching any tab (e.g. switching from ‘Team Space’ to ‘My Space’ and back again).
+- Undo is not supported.

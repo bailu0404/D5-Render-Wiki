@@ -1,0 +1,3 @@
+# How to deploy team library and manage team assets
+
+[Team Library Deployment](https://docs.d5render.com/instruction-for-d5-for-teams/how-to-deploy-team-library-and-manage-team-assets/team-library-deployment)[Cloud Asset Management](https://docs.d5render.com/instruction-for-d5-for-teams/how-to-deploy-team-library-and-manage-team-assets/cloud-asset-management)[How to set up Windows shared drive?](https://docs.d5render.com/instruction-for-d5-for-teams/how-to-deploy-team-library-and-manage-team-assets/how-to-set-up-windows-shared-drive)[How to create a NAS shared folder?](https://docs.d5render.com/instruction-for-d5-for-teams/how-to-deploy-team-library-and-manage-team-assets/how-to-create-a-nas-shared-folder)

@@ -1,0 +1,5 @@
+# Supports opening multiple worksets at once
+
+Supports opening multiple worksets at once and switching freely between all opened worksets in the main interface.
+
+![](https://docs.d5render.com/~gitbook/image?url=https%3A%2F%2F3611830798-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MjbN1iGmN_HBnj_fyU9%252Fuploads%252FZq9IPpYmBhOFODY5MbrX%252Fimage.png%3Falt%3Dmedia%26token%3D1c2546b8-73be-4809-af20-d7858794fee9&width=768&dpr=3&quality=100&sign=5bca2095&sv=2)![](https://docs.d5render.com/~gitbook/image?url=https%3A%2F%2F3611830798-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MjbN1iGmN_HBnj_fyU9%252Fuploads%252FvzAaUJSjPnY0TC5J6mGV%252Fimage.png%3Falt%3Dmedia%26token%3D61c35779-586e-4f3d-b4f7-8ecf38fd6e6d&width=768&dpr=3&quality=100&sign=ddcc325a&sv=2)

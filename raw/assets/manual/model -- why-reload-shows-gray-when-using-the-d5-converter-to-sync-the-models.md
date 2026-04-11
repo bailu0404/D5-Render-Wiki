@@ -1,0 +1,3 @@
+# Why "Reload" shows gray when using the D5 Converter to sync the models?
+
+![](https://docs.d5render.com/~gitbook/image?url=https%3A%2F%2F3611830798-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MjbN1iGmN_HBnj_fyU9%252Fuploads%252FY8tbx6ynCRd8ywY7qD6e%252Fupdate%2520gray.PNG%3Falt%3Dmedia%26token%3D76d694af-7c07-4ad8-b734-5600b1fb3403&width=768&dpr=3&quality=100&sign=6fb10aca&sv=2)

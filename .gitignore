@@ -6,3 +6,4 @@
 
 # Claude Code
 .claude/
+__pycache__/
