@@ -3,9 +3,23 @@
 > Content-oriented catalog of all wiki pages. Organized by category.
 > Updated by the LLM on every ingest.
 
+## Wiki Scope
+
+本 wiki 涵盖 D5 Render 2.x–3.x 版本，数据截至 2026-04-11。内容来源：D5 官方手册、官方博客、官网页面。
+
+**涵盖**：功能特性、渲染概念、工作流插件、AI 工具、资产库、团队协作、虚拟漫游、动画系统
+**不涵盖**：内部实现细节、API/SDK 文档、定价与许可证详情、第三方插件未与 D5 集成的部分
+
+## Quick Start for Agents
+
+1. 读 `wiki/compact.md` 获取全局速查表（所有页面的一句话定义）
+2. 在本 index 中定位目标页面
+3. 深读目标页面，按 wikilink 追踪相关概念
+
 ## Overview
 
 - [[overview]] — D5 Render 概览：实时渲染软件的核心功能、全流程生态与定位
+- [[compact]] — 速查表：所有实体与概念的一句话定义
 
 ## Sources — Manual
 
@@ -76,10 +90,10 @@
 
 ## Analyses & Comparisons
 
-<!-- Comparative analyses, deep dives, and generated query results -->
+- [[d5-vs-lumion-vs-enscape]] — D5 Render vs Lumion vs Enscape 全维度对比分析
 
 ---
 
-*Last updated: 2026-04-11*
-*Total pages: 40*
+*Last updated: 2026-04-13*
+*Total pages: 42*
 *Total sources: 22 (1 original + 10 manual + 13 blog + 1 initial)*

@@ -86,6 +86,22 @@ Periodically health-check the wiki:
 - Suggest new questions to investigate and new sources to look for
 - Update `wiki/log.md` with format: `## [YYYY-MM-DD] lint | Summary of findings`
 
+## Link Resolution
+
+Wikilinks `[[pagename]]` resolve to file paths as follows:
+- `[[pagename]]` → `wiki/entities/pagename.md` or `wiki/concepts/pagename.md` or `wiki/sources/pagename.md`
+- Source summary pages use `src-` prefix in filename but NOT in wikilink: `[[src-manual-ai]]` → `wiki/sources/src-manual-ai.md`
+- If uncertain, check `wiki/index.md` for the exact category
+
+## Agent Usage Guide
+
+This wiki is designed for AI agents to understand D5 Render. Recommended usage:
+
+1. **Start from index.md** — Read `wiki/index.md` first to locate relevant pages, then deep-read 2-3 target pages
+2. **Use compact.md for global context** — `wiki/compact.md` contains one-line definitions of all entities and concepts; read it once to build a mental model
+3. **Follow wikilinks for depth** — Each page links to related concepts; trace links when you need more detail
+4. **Respect wiki boundaries** — See the scope declaration at the top of `wiki/index.md`
+
 ## Rules
 
 - **NEVER** modify files in `raw/` — they are immutable
