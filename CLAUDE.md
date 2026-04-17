@@ -102,6 +102,18 @@ This wiki is designed for AI agents to understand D5 Render. Recommended usage:
 3. **Follow wikilinks for depth** — Each page links to related concepts; trace links when you need more detail
 4. **Respect wiki boundaries** — See the scope declaration at the top of `wiki/index.md`
 
+## Remote Access (GitHub Pages)
+
+Wiki 已部署到 GitHub Pages，当本地没有仓库时，Agent 可通过 HTTP 远程查阅：
+
+1. **查索引** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/manifest.json` → 按名称/标签搜索页面
+2. **看速查** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/wiki/compact.md` → 全局速查表
+3. **读页面** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/wiki/entities/xxx.md` → 深读具体页面
+
+**Wikilink 远程解析**：`[[page-name]]` → 在 manifest.json 中查找 page-name 的 path → 拼接 `base_url + "/" + path`
+
+**优先级**：本地有 wiki 仓库时直接读文件（更快）；本地没有时走 GitHub Pages 远程访问。
+
 ## Rules
 
 - **NEVER** modify files in `raw/` — they are immutable
