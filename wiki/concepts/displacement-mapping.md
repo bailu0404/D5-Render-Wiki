@@ -9,38 +9,38 @@ sources:
 tags: [displacement, material, texture, height-map]
 ---
 
-置换贴图 (Displacement Mapping) 通过修改模型几何结构来表现材质的真实凹凸细节，比法线贴图 (Normal Map) 和视差贴图 (Parallax) 提供更真实的表面效果。
+Displacement Mapping modifies the model's geometry to represent realistic surface bump details, providing more authentic surface effects than Normal Maps and Parallax mapping.
 
-## 两种模式
+## Two Modes
 
-### Parallax（视差）
-D5 Render 之前的默认凹凸方案，通过视觉错觉模拟深度，不修改几何结构。
+### Parallax
+The previous default bump solution in D5 Render, which simulates depth through visual illusion without modifying geometry.
 
-### True Displacement（真实置换）
-3.0 版本新增，通过高度图物理置换几何体：
-- 白色 = 凸起部分
-- 黑色 = 凹陷部分
+### True Displacement
+Newly added in version 3.0, physically displaces geometry using a height map:
+- White = raised areas
+- Black = recessed areas
 
-## True Displacement 参数
+## True Displacement Parameters
 
-| 参数 | 说明 |
-|------|------|
-| Subdivision Level | 网格细分级别，越高越精细但增加面数和渲染时间 |
-| Vertical Offset | 垂直偏移，补偿置换后模型的悬浮或穿插 |
-| Maintain Continuity | 保持模型实体结构闭合完整 |
-| Remesh | 对拓扑差的模型进行网格重建 |
+| Parameter | Description |
+|-----------|-------------|
+| Subdivision Level | Mesh subdivision level; higher values produce finer detail but increase polygon count and render time |
+| Vertical Offset | Vertical offset, compensates for model floating or intersection after displacement |
+| Maintain Continuity | Keeps the model's solid structure closed and intact |
+| Remesh | Rebuilds the mesh for models with poor topology |
 
-> 注意: 更高的细分级别可达到更精细的效果，但会增加模型面数、内存占用和渲染时间。过度使用可能导致闪退。
+> Note: Higher subdivision levels achieve finer results but increase model polygon count, memory usage, and render time. Excessive use may cause crashes.
 
-## Opacity Map（不透明度贴图）
+## Opacity Map
 
-Displacement 材质模板新增不透明度贴图，实现镂空效果：
-- 适用于绿篱、栅栏、竹编表面等
-- 精确控制材质切割
+The Displacement material template now includes an opacity map for cutout effects:
+- Suitable for hedges, fences, woven bamboo surfaces, etc.
+- Precise control over material cutouts
 
-## 限制
+## Limitations
 
-- LiveSync 模型不支持 True Displacement（UI 开关禁用）
-- 如需使用，需将模型转换为非实时同步模型
+- LiveSync models do not support True Displacement (UI toggle is disabled)
+- To use True Displacement, the model must be converted to a non-real-time sync model
 
-*来源: [[src-manual-material]], [[src-blog-materials-textures]]*
+*Sources: [[src-manual-material]], [[src-blog-materials-textures]]*

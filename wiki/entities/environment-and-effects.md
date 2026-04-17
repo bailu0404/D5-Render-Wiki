@@ -1,5 +1,5 @@
 ---
-title: 环境与特效
+title: Environment and Effects
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -11,17 +11,17 @@ tags:
   - lighting
 ---
 
-# 环境与特效
+# Environment and Effects
 
-D5 Render 的环境与特效系统，提供天空、天气、光影以及专业后期特效，帮助用户创造引人入胜的视觉故事。
+D5 Render's environment and effects system provides sky, weather, light and shadow, and professional post-processing effects, helping users create compelling visual stories.
 
 > "Light and Shadow, Wind and Rain, All in Your Hand"
 
-## 相关概念
+## Related Concepts
 
-- [[real-time-rendering]] — 环境光照与实时渲染的关系
-- [[pbr-materials]] — 环境光照下的材质表现
+- [[real-time-rendering]] — The relationship between environmental lighting and real-time rendering
+- [[pbr-materials]] — Material appearance under environmental lighting
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

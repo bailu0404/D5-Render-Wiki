@@ -1,5 +1,5 @@
 ---
-title: 相机与视图
+title: Camera and View
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -10,12 +10,12 @@ tags:
   - view
 ---
 
-# 相机与视图
+# Camera and View
 
-D5 Render 的相机与视图控制系统，提供简洁的相机设置与直观的视角操控。
+D5 Render's camera and view control system provides simple camera settings and intuitive view manipulation.
 
 > "Explore at Your Will"
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

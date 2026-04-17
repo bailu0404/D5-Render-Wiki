@@ -3,7 +3,7 @@
 > Append-only chronological record of wiki operations.
 > Format: `## [YYYY-MM-DD] operation | Description`
 
-## [2026-04-10] ingest | D5 Render Features (官网)
+## [2026-04-10] ingest | D5 Render Features (Official Website)
 
 - Source: `raw/D5 Render.md`
 - Created source summary: [[src-d5-render-features]]
@@ -28,17 +28,33 @@
   - [[src-blog-ai-features]], [[src-blog-workflow-plugins]], [[src-blog-materials-textures]], [[src-blog-lighting-environment]], [[src-blog-camera-rendering]], [[src-blog-animation]], [[src-blog-assets-landscape]], [[src-blog-case-studies]], [[src-blog-product-updates]], [[src-blog-architecture-industry]], [[src-blog-tips-techniques]], [[src-blog-virtual-tour-xr]], [[src-blog-d5-ecosystem]]
 - Updated index with 40 pages total
 
-## [2026-04-13] lint | Agent 优化：添加使用指南与速查表
+## [2026-04-13] lint | Agent optimization: added usage guide and quick reference
 
 - Added Link Resolution and Agent Usage Guide to CLAUDE.md
 - Added Wiki Scope and Quick Start for Agents to index.md
-- Created [[compact]] — 速查表，汇总所有实体与概念的一句话定义
+- Created [[compact]] — quick reference with one-line definitions of all entities and concepts
 - Updated index.md with compact.md entry, total pages now 41
 
-## [2026-04-13] query | D5 Render vs Lumion vs Enscape 对比
+## [2026-04-13] query | D5 Render vs Lumion vs Enscape Comparison
 
-- 用户提问 D5 渲染器与 Lumion/Enscape 的区别
-- 使用 Brave Search API 搜索外部对比资料（5 条英文 + 5 条中文结果）
-- 综合 wiki 内部页面与搜索结果，撰写 10 维度系统对比
-- 创建分析页：[[d5-vs-lumion-vs-enscape]]
-- 更新 index.md，total pages now 42
+- User asked about differences between D5 Render and Lumion/Enscape
+- Used Brave Search API for external comparison resources (5 English + 5 Chinese results)
+- Synthesized wiki pages and search results into a 10-dimension systematic comparison
+- Created analysis page: [[d5-vs-lumion-vs-enscape]]
+- Updated index.md, total pages now 42
+
+## [2026-04-17] ingest | Sales Framework, Competitor Comparison, Knowledge Base, Legal Documents
+
+- Sources: `raw/d5-sales-framework.md`, `raw/d5render-competitor-comparison.md`, `raw/d5render-knowledge-base.md`, `raw/D5 Render Terms of Service.md`, `raw/General Terms of Service.md`, `raw/Privacy Policy _ D5 Render.md`
+- Created 4 source summary pages:
+  - [[src-sales-framework]], [[src-competitor-comparison]], [[src-knowledge-base]], [[src-legal-terms]]
+- Updated [[overview]] with market position, user base, and data security info from knowledge base
+- Updated index.md with new source pages and updated scope, total pages now 46
+
+## [2026-04-17] translate | Full wiki English translation
+
+- Translated all wiki content from Chinese to English
+- Affected: all entity pages (18), concept pages (10), source pages (28), analysis page (1)
+- Translated root pages: index.md, overview.md, compact.md, log.md
+- Translated site-readme.md and updated CLAUDE.md content style rule
+- All new pages created directly in English

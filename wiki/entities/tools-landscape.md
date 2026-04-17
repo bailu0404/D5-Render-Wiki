@@ -16,58 +16,58 @@ sources:
 tags: [landscape, terrain, ocean, scatter, city-generator, cesium, vegetation]
 ---
 
-D5 Render 的景观与地形工具集，涵盖地形编辑、海洋系统、散布工具、城市生成器和 Cesium 地理空间集成。
+D5 Render's landscape and terrain toolset covers terrain editing, ocean systems, scatter tools, city generator, and Cesium geospatial integration.
 
-## Terrain（地形）
+## Terrain
 
-地形编辑工具，支持：
-- 升高/降低地形
-- 平滑地形表面
-- 绘制地形材质
-- 导入高度图生成地形
+Terrain editing tool, supporting:
+- Raise/lower terrain
+- Smooth terrain surface
+- Paint terrain materials
+- Import heightmaps to generate terrain
 
-## Ocean（海洋）
+## Ocean
 
-3.0 版全新海洋系统：
-- 一键生成动态海洋
-- 自动分析地形生成有机海岸线过渡
-- 滚浪效果
-- 湿沙效果
-- 不是简单平面，而是"活的环境"
+All-new ocean system in version 3.0:
+- One-click dynamic ocean generation
+- Automatically analyzes terrain to generate organic coastline transitions
+- Rolling wave effects
+- Wet sand effects
+- Not a simple plane, but a "living environment"
 
-## D5 Scatter（散布）
+## D5 Scatter
 
-在场景中随机分布对象：
-- 画笔式散布操作
-- 可调节密度、缩放、旋转参数
-- 适合草地、碎石、落叶等自然散布效果
+Randomly distribute objects in the scene:
+- Brush-style scatter operation
+- Adjustable density, scale, and rotation parameters
+- Ideal for natural scatter effects like grass, gravel, and fallen leaves
 
-## City Generator（城市生成器）
+## City Generator
 
-快速生成城市背景环境：
-- 3.0 新增 Procedural Building（程序化建筑）
-- 启用 "Styles" 选项即时生成风格化建筑
-- 适合创建密集城市框架作为设计背景
+Quickly generate urban background environments:
+- 3.0 adds Procedural Building
+- Enable "Styles" option to instantly generate stylized buildings
+- Ideal for creating dense urban frameworks as design backdrops
 
-## Cesium 集成
+## Cesium Integration
 
-加载精确 3D 地理空间数据：
-- 无需手动建模周边城市街区
-- 直接加载项目所在位置的实际城市环境
-- 3.0 版本开放给所有用户
+Load precise 3D geospatial data:
+- No need to manually model surrounding city blocks
+- Directly load the actual urban environment at the project location
+- Available to all users in version 3.0
 
-## 植被工具
+## Vegetation Tools
 
-| 工具 | 功能 |
-|------|------|
-| Brush & Scatter | 画笔/散布放置植被 |
-| Vegetation Path | 沿路径放置植被 |
-| Eraser & Clean | 橡皮擦/清理植被 |
-| 一键藤蔓 | 自动生成攀爬藤蔓 |
-| 一键绿篱 | 快速填充绿篱叶片 |
-| 草坪效果 | 创建逼真草坪 |
-| Advanced Brush | 高级画笔（更精细控制） |
+| Tool | Function |
+|------|----------|
+| Brush & Scatter | Brush/scatter placement of vegetation |
+| Vegetation Path | Place vegetation along a path |
+| Eraser & Clean | Eraser/clear vegetation |
+| One-click Vine | Automatically generate climbing vines |
+| One-click Hedge | Quickly fill hedge foliage |
+| Lawn Effect | Create realistic lawns |
+| Advanced Brush | Advanced brush (finer control) |
 
-所有植被工具支持预设保存和重用。
+All vegetation tools support preset saving and reuse.
 
-*来源: [[src-manual-assets-landscape]], [[src-blog-assets-landscape]]*
+*Sources: [[src-manual-assets-landscape]], [[src-blog-assets-landscape]]*

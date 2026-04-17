@@ -1,5 +1,5 @@
 ---
-title: PBR 材质
+title: PBR Materials
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -10,18 +10,18 @@ tags:
   - pbr
 ---
 
-# PBR 材质
+# PBR Materials
 
-D5 Render 采用新一代基于物理的渲染（PBR）材质系统。PBR 规则确保材质在各类光照条件下呈现准确而独特的视觉效果，同时简化的 PBR 材质模板降低了材质创建与调整的工作量。
+D5 Render adopts a next-generation Physically Based Rendering (PBR) material system. PBR rules ensure that materials present accurate and unique visual effects under various lighting conditions, while simplified PBR material templates reduce the effort required for material creation and adjustment.
 
 > "The New-Generation PBR Material"
 
-## 相关概念
+## Related Concepts
 
-- [[physically-based-rendering]] — PBR 的底层原理
-- [[real-time-rendering]] — PBR 在实时渲染中的应用
-- [[environment-and-effects]] — 不同光照条件下的 PBR 材质表现
+- [[physically-based-rendering]] — The underlying principles of PBR
+- [[real-time-rendering]] — PBR applied in real-time rendering
+- [[environment-and-effects]] — PBR material performance under different lighting conditions
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

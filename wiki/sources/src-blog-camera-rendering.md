@@ -27,44 +27,44 @@ sources:
 tags: [blog, camera, rendering, photorealism, post-processing, comparison]
 ---
 
-D5 Render 博客中关于相机设置与渲染技术的文章合集，涵盖照片级渲染技巧、后处理、渲染对比等。
+A collection of D5 Render blog articles on camera settings and rendering techniques, covering photorealistic rendering tips, post-processing, and rendering comparisons.
 
-## 照片级渲染
+## Photorealistic Rendering
 
-### 5 大秘诀
-1. **光照与环境设置** — [[hdri-lighting|HDRI]] 天空、[[global-illumination|GI]]、AI Atmosphere Match
-2. **材质掌控** — [[pbr-materials|PBR 材质]]库 + AI 材质工具
-3. **动态元素** — 风动植被、运动模糊
-4. **拥抱不完美** — 磨损、水渍、裂缝
-5. **相机掌控** — 真实相机参数 + 镜头效果
+### 5 Key Secrets
+1. **Lighting and Environment Setup** — [[hdri-lighting|HDRI]] sky, [[global-illumination|GI]], AI Atmosphere Match
+2. **Material Mastery** — [[pbr-materials|PBR materials]] library + AI material tools
+3. **Dynamic Elements** — Wind-animated vegetation, motion blur
+4. **Embrace Imperfections** — Wear, water stains, cracks
+5. **Camera Control** — Realistic camera parameters + lens effects
 
-### 8 个技巧
-- 初学者常见问题及修复
-- 赢得客户的照片级渲染
-- 摄影技术应用于渲染
+### 8 Tips
+- Common beginner issues and fixes
+- Photorealistic rendering that wins clients
+- Photography techniques applied to rendering
 
-## 相机设置
+## Camera Settings
 
-- Archviz 必知相机设置技巧
-- 相机切换功能
-- 正交视图渲染
-- 剖面渲染技巧
-- Z-Depth 使用
+- Must-know camera setting tips for archviz
+- Camera switch feature
+- Orthographic view rendering
+- Section rendering tips
+- Z-Depth usage
 
-## 后处理
+## Post-Processing
 
-- 一键 3D 后处理
-- [[post-processing|颜色分级]]指南
-- LUT 颜色分级详解
-- 暗角与色差效果
-- D5 SR 超分辨率
+- One-click 3D post-processing
+- [[post-processing|Color grading]] guide
+- LUT color grading explained
+- Vignette and chromatic aberration effects
+- D5 SR super resolution
 
-## 渲染对比
+## Rendering Comparisons
 
 - D5 Render vs Unreal vs Corona
-- 实时光线追踪 vs V-Ray (室内)
-- ChatGPT 图像生成器 vs D5 Render
-- 最佳光线追踪 3D 软件
-- 室内 vs 室外关键渲染技术
+- Real-time ray tracing vs V-Ray (interior)
+- ChatGPT Image Generator vs D5 Render
+- Best ray-traced 3D software
+- Interior vs exterior key rendering techniques
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

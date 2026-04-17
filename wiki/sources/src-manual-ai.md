@@ -17,61 +17,61 @@ sources:
 tags: [manual, ai, agent, material-generation, atmosphere]
 ---
 
-D5 Render 用户手册的 AI 功能章节，涵盖 AI Agent、AI 材质工具、AI 后处理等所有 AI 驱动功能。
+The AI Features chapter of the D5 Render user manual, covering AI Agent, AI material tools, AI post-processing, and all other AI-driven features.
 
 ## AI Agent
 
-AI Agent 门户位于顶部菜单栏，包含三大功能模块：
+The AI Agent portal is located in the top menu bar and includes three major functional modules:
 
-### 1. SmartPlanting（智能种植）
+### 1. SmartPlanting
 
-输入场地位置和偏好，AI Agent 利用植物数据库和气候模型，即时生成定制化的花境设计方案。设计面积上限 30m²。
+Enter the site location and preferences, and AI Agent leverages a plant database and climate model to instantly generate a customized flower border design plan. The maximum design area is 30 m2.
 
-三种设计风格模式：
-- **季节性花境**: 针对特定季节观赏需求优化
-- **自然多年生花境**: 使用多年生植物构建可持续生态系统
-- **极简无花花园**: 多样叶形与微妙灰度调色板
+Three design style modes:
+- **Seasonal Flower Border**: Optimized for specific seasonal viewing needs
+- **Natural Perennial Flower Border**: Uses perennial plants to build a sustainable ecosystem
+- **Minimalist No-Flower Garden**: Diverse leaf shapes and subtle grayscale palette
 
-### 2. Design Assistant Toolkit（设计助手工具包）
+### 2. Design Assistant Toolkit
 
-#### AI Scene Match（场景匹配）
-- 描述期望的氛围（如"秋日黄昏"、"雪天冬季"），AI 生成参考图
-- 自动匹配光照和后处理参数到当前场景
-- 参考图支持语义迭代生成
+#### AI Scene Match
+- Describe the desired atmosphere (e.g., "autumn dusk," "snowy winter"), and AI generates a reference image
+- Automatically matches lighting and post-processing parameters to the current scene
+- Reference images support semantic iterative generation
 
-#### AI Asset Recommendation（资产推荐）
-- 支持图像识别和文本检索
-- 上传参考图或输入关键词，AI 智能推荐匹配的模型
+#### AI Asset Recommendation
+- Supports image recognition and text search
+- Upload a reference image or enter keywords, and AI intelligently recommends matching models
 
-#### Light Source Assisted Adjustment（光源辅助调整）
-- 通过自然语言指令精确调整场景光源参数
-- 支持自动调整和手动选择调整
-- 可优化特定区域照明、防止过曝
+#### Light Source Assisted Adjustment
+- Precisely adjust scene light source parameters through natural language commands
+- Supports automatic adjustment and manual selection of adjustments
+- Can optimize specific area lighting and prevent overexposure
 
-#### Export（导出）
-- 自动导出场景中使用的所有 D5 在线材质库植物列表
-- 支持上传植物报价文件，自动匹配成本并智能计算
+#### Export
+- Automatically exports a list of all D5 online material library plants used in the scene
+- Supports uploading plant quotation files, automatically matching costs and performing smart calculations
 
 ### 3. D5 Bot
 
-AI 驱动的支持助手，回答 D5 Render 使用问题。
-- 支持自动 AI 生成问题摘要和描述
-- 支持手动截图上传，创建提交给 D5 支持团队的报告
+An AI-driven support assistant that answers D5 Render usage questions.
+- Supports automatic AI-generated question summaries and descriptions
+- Supports manual screenshot uploads, creating reports submitted to the D5 support team
 
-### 权限说明
+### Permission Notes
 
-Pro、EDU 和 Team 用户在有效期内可无限次使用 AI Agent 功能。
+Pro, EDU, and Team users can use AI Agent features unlimited times during their active subscription period.
 
-## AI 材质工具
+## AI Material Tools
 
-- **AI PBR Material Snap**: 将照片转换为精确的 PBR 材质
-- **AI Material Match**: 智能匹配材质参数
-- **AI Generated Texture Maps**: 一键生成完整 PBR 贴图集
-- **AI Make Seamless**: 消除纹理拼接缝隙
-- **AI Ultra HD Texture**: 提升纹理分辨率，适合近距离细节
-- **AI Model Generation**: 从参考图生成 3D 模型
+- **AI PBR Material Snap**: Converts photos into precise PBR materials
+- **AI Material Match**: Intelligently matches material parameters
+- **AI Generated Texture Maps**: One-click generation of complete PBR map sets
+- **AI Make Seamless**: Eliminates texture tiling seams
+- **AI Ultra HD Texture**: Enhances texture resolution, suitable for close-up details
+- **AI Model Generation**: Generates 3D models from reference images
 
-## AI 后处理
+## AI Post-Processing
 
-- **AI Post-Processing**: 智能优化渲染图像质量
-- **AI Atmosphere Match**: 从参考图转移光照、天气和环境氛围到当前场景
+- **AI Post-Processing**: Intelligently optimizes rendered image quality
+- **AI Atmosphere Match**: Transfers lighting, weather, and environmental atmosphere from a reference image to the current scene

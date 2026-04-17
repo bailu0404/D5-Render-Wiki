@@ -36,69 +36,69 @@ sources:
 tags: [manual, assets, landscape, terrain, ocean, scatter, cesium, vegetation]
 ---
 
-D5 Render 用户手册的资产库与景观工具章节，涵盖在线/本地资产管理、地形编辑、海洋系统、散布工具、城市生成器等。
+The Assets & Landscape Tools chapter of the D5 Render user manual, covering online/local asset management, terrain editing, ocean system, scatter tool, city generator, and more.
 
-## 资产库
+## Asset Library
 
-### 在线资产库
-- 包含模型、材质、粒子特效、HDR 天空等类别
-- 支持搜索、筛选和收藏
-- 支持低多边形 (LowPoly) 资产优化性能
+### Online Asset Library
+- Includes categories such as models, materials, particle effects, HDR skies, and more
+- Supports search, filtering, and favorites
+- Supports LowPoly assets for performance optimization
 
-### 本地库
-- 可将材质和模型添加到本地库
-- 支持自定义资源路径
-- 支持资源迁移
+### Local Library
+- Materials and models can be added to the local library
+- Supports custom resource paths
+- Supports resource migration
 
-### 体积光资产
-- 体积光效果资产，增强场景氛围
+### Volumetric Lighting Assets
+- Volumetric light effect assets that enhance scene atmosphere
 
-## 景观工具
+## Landscape Tools
 
-### Terrain（地形）
-地形编辑工具，支持：
-- 升高/降低地形
-- 平滑地形
-- 绘制地形材质
-- 导入高度图
+### Terrain
+Terrain editing tool, supporting:
+- Raise/lower terrain
+- Smooth terrain
+- Paint terrain materials
+- Import height maps
 
-### Ocean（海洋）
-3.0 版全新海洋系统：
-- 一键生成动态海洋
-- 自动分析地形生成海岸线过渡
-- 滚浪和湿沙效果
-- 不仅是平面，而是"活的环境"
+### Ocean
+Brand new ocean system in version 3.0:
+- One-click generation of dynamic ocean
+- Automatically analyzes terrain to generate coastline transitions
+- Rolling waves and wet sand effects
+- Not just a flat plane, but a "living environment"
 
-### D5 Scatter（散布）
-在场景中随机分布对象：
-- 支持画笔式散布
-- 可调节密度、缩放、旋转等参数
-- 适合草地、碎石等自然散布效果
+### D5 Scatter
+Randomly distributes objects in the scene:
+- Supports brush-style scattering
+- Adjustable density, scale, rotation, and other parameters
+- Ideal for natural scattering effects like grass and gravel
 
-### City Generator（城市生成器）
-快速生成城市背景：
-- 3.0 新增 Procedural Building（程序化建筑）
-- 启用 "Styles" 选项即可生成风格化建筑外观
-- 适合创建密集城市场景框架
+### City Generator
+Quickly generates city backdrops:
+- 3.0 adds Procedural Building
+- Enable the "Styles" option to generate stylized building appearances
+- Ideal for creating dense urban scene frameworks
 
-### Cesium 集成
-加载精确 3D 地理空间数据：
-- 无需手动建模周边城市街区
-- 直接加载实际城市环境数据
-- 3.0 版本开放给所有用户
+### Cesium Integration
+Loads accurate 3D geospatial data:
+- No need to manually model surrounding city blocks
+- Directly loads actual urban environment data
+- Version 3.0 available to all users
 
-## 植被工具
+## Vegetation Tools
 
 ### Brush & Scatter
-画笔和散布工具放置植被，支持预设保存和重用。
+Brush and scatter tools for placing vegetation, supporting preset saving and reuse.
 
 ### Vegetation Path
-沿路径放置植被，适合行道树等场景。
+Place vegetation along a path, suitable for street trees and similar scenarios.
 
 ### Eraser & Clean
-橡皮擦和清理工具，快速删除植被。
+Eraser and cleanup tools for quickly removing vegetation.
 
-### 一键功能
-- **一键藤蔓**: 自动生成攀爬藤蔓
-- **一键绿篱**: 快速填充绿篱叶片
-- **草坪效果**: 创建逼真草坪
+### One-Click Features
+- **One-Click Vine**: Automatically generates climbing vines
+- **One-Click Hedge**: Quickly fills hedge leaves
+- **Lawn Effect**: Creates realistic lawns

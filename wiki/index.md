@@ -5,95 +5,102 @@
 
 ## Wiki Scope
 
-本 wiki 涵盖 D5 Render 2.x–3.x 版本，数据截至 2026-04-11。内容来源：D5 官方手册、官方博客、官网页面。
+This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-17. Sources: D5 official manual, official blog, website pages, sales framework, knowledge base, legal documents.
 
-**涵盖**：功能特性、渲染概念、工作流插件、AI 工具、资产库、团队协作、虚拟漫游、动画系统
-**不涵盖**：内部实现细节、API/SDK 文档、定价与许可证详情、第三方插件未与 D5 集成的部分
+**Covered**: Features, rendering concepts, workflow plugins, AI tools, asset libraries, team collaboration, virtual tours, animation systems, legal/policy, sales positioning
+**Not covered**: Internal implementation details, API/SDK documentation, pricing and licensing details (beyond overview), third-party plugins not integrated with D5
 
 ## Quick Start for Agents
 
-1. 读 `wiki/compact.md` 获取全局速查表（所有页面的一句话定义）
-2. 在本 index 中定位目标页面
-3. 深读目标页面，按 wikilink 追踪相关概念
+1. Read `wiki/compact.md` for the global quick reference (one-line definitions of all pages)
+2. Locate target pages in this index
+3. Deep-read target pages, follow wikilinks to related concepts
 
 ## Overview
 
-- [[overview]] — D5 Render 概览：实时渲染软件的核心功能、全流程生态与定位
-- [[compact]] — 速查表：所有实体与概念的一句话定义
+- [[overview]] — D5 Render overview: core features, full-workflow ecosystem, and positioning
+- [[compact]] — Quick reference: one-line definitions of all entities and concepts
 
 ## Sources — Manual
 
-- [[src-manual-getting-started]] — 手册：入门指南（安装、界面、工作流）
-- [[src-manual-ai]] — 手册：AI 功能（AI Agent、材质工具、后处理）
-- [[src-manual-material]] — 手册：材质系统（10 种模板、贴图通道、UV）
-- [[src-manual-lighting-environment]] — 手册：光照与环境（7 种光源、天空、天气、后处理）
-- [[src-manual-render-output]] — 手册：渲染输出（路径追踪、SR、帧生成）
-- [[src-manual-animation-tour]] — 手册：动画与虚拟漫游
-- [[src-manual-assets-landscape]] — 手册：资产库与景观工具
-- [[src-manual-workflow-plugins]] — 手册：工作流插件
-- [[src-manual-teams-ecosystem]] — 手册：D5 生态与团队协作
-- [[src-manual-hardware-preference]] — 手册：硬件、偏好设置与系统
+- [[src-manual-getting-started]] — Manual: Getting started (installation, interface, workflow)
+- [[src-manual-ai]] — Manual: AI features (AI Agent, material tools, post-processing)
+- [[src-manual-material]] — Manual: Material system (10 templates, texture channels, UV)
+- [[src-manual-lighting-environment]] — Manual: Lighting and environment (7 light types, sky, weather, post-processing)
+- [[src-manual-render-output]] — Manual: Render output (path tracing, SR, frame generation)
+- [[src-manual-animation-tour]] — Manual: Animation and virtual tours
+- [[src-manual-assets-landscape]] — Manual: Asset library and landscape tools
+- [[src-manual-workflow-plugins]] — Manual: Workflow plugins
+- [[src-manual-teams-ecosystem]] — Manual: D5 ecosystem and team collaboration
+- [[src-manual-hardware-preference]] — Manual: Hardware, preferences, and system
 
 ## Sources — Blog
 
-- [[src-blog-ai-features]] — 博客：AI 功能与演进
-- [[src-blog-workflow-plugins]] — 博客：工作流与插件
-- [[src-blog-materials-textures]] — 博客：材质与纹理技巧
-- [[src-blog-lighting-environment]] — 博客：光照与环境氛围
-- [[src-blog-camera-rendering]] — 博客：相机设置与渲染技术
-- [[src-blog-animation]] — 博客：动画技巧
-- [[src-blog-assets-landscape]] — 博客：资产库与景观设计
-- [[src-blog-case-studies]] — 博客：案例研究与用户展示
-- [[src-blog-product-updates]] — 博客：产品更新与版本发布
-- [[src-blog-architecture-industry]] — 博客：建筑行业与教育
-- [[src-blog-tips-techniques]] — 博客：渲染技巧与方法
-- [[src-blog-virtual-tour-xr]] — 博客：虚拟漫游与 XR 技术
-- [[src-blog-d5-ecosystem]] — 博客：D5 生态系统全流程
+- [[src-blog-ai-features]] — Blog: AI features and evolution
+- [[src-blog-workflow-plugins]] — Blog: Workflow and plugins
+- [[src-blog-materials-textures]] — Blog: Material and texture techniques
+- [[src-blog-lighting-environment]] — Blog: Lighting and environmental atmosphere
+- [[src-blog-camera-rendering]] — Blog: Camera settings and rendering techniques
+- [[src-blog-animation]] — Blog: Animation techniques
+- [[src-blog-assets-landscape]] — Blog: Asset library and landscape design
+- [[src-blog-case-studies]] — Blog: Case studies and user showcases
+- [[src-blog-product-updates]] — Blog: Product updates and version releases
+- [[src-blog-architecture-industry]] — Blog: Architecture industry and education
+- [[src-blog-tips-techniques]] — Blog: Rendering tips and methods
+- [[src-blog-virtual-tour-xr]] — Blog: Virtual tours and XR technology
+- [[src-blog-d5-ecosystem]] — Blog: D5 ecosystem full workflow
 
 ## Sources — Original
 
-- [[src-d5-render-features]] — D5 Render 官网功能介绍页面
+- [[src-d5-render-features]] — D5 Render official website features page
+
+## Sources — Sales & Product
+
+- [[src-sales-framework]] — Internal sales argument framework (USP / leading / parity tiers)
+- [[src-competitor-comparison]] — Multi-dimensional competitor comparison table
+- [[src-knowledge-base]] — Product knowledge base v2.0 (company, ecosystem, AI, pricing, clients)
+- [[src-legal-terms]] — Legal documents: Terms of Service, Privacy Policy, AI data policy
 
 ## Entities
 
-- [[real-time-rendering]] — 实时渲染与照片级输出
-- [[ai-capabilities]] — AI 集成与自动化
-- [[asset-tools]] — 资产工具与景观设计
-- [[environment-and-effects]] — 环境与特效系统
-- [[efficiency-tools]] — 效率工具与场景构建
-- [[camera-and-view]] — 相机与视图控制
-- [[d5-lite]] — D5 Lite 概念设计工具
-- [[d5-works]] — D5 Works 资产平台
-- [[d5-launcher]] — D5 Launcher 启动器
-- [[d5-for-teams]] — D5 for Teams 团队协作
-- [[d5-studio]] — D5 Studio 云端空间
-- [[lighting-system]] — 光照系统（7 种光源 + 天空系统）
-- [[render-output]] — 渲染输出（路径追踪/SR/视频）
-- [[tools-landscape]] — 景观与地形工具（地形/海洋/散布/城市/Cesium）
-- [[workflow-plugins]] — 工作流插件（SketchUp/Rhino/Revit/3ds Max/Blender/ArchiCAD/VectorWorks）
-- [[virtual-tour]] — 虚拟漫游（全景/空间/XR）
-- [[animation-system]] — 动画系统（路径/关键帧/渐变）
-- [[widgets]] — 扩展模块（舞台灯/投影灯/VR/颜色分级/项目合并）
+- [[real-time-rendering]] — Real-time rendering and photorealistic output
+- [[ai-capabilities]] — AI integration and automation
+- [[asset-tools]] — Asset tools and landscape design
+- [[environment-and-effects]] — Environment and effects system
+- [[efficiency-tools]] — Efficiency tools and scene building
+- [[camera-and-view]] — Camera and view controls
+- [[d5-lite]] — D5 Lite concept design tool
+- [[d5-works]] — D5 Works asset platform
+- [[d5-launcher]] — D5 Launcher hub
+- [[d5-for-teams]] — D5 for Teams collaboration
+- [[d5-studio]] — D5 Studio cloud space
+- [[lighting-system]] — Lighting system (7 light types + sky system)
+- [[render-output]] — Render output (path tracing/SR/video)
+- [[tools-landscape]] — Landscape and terrain tools (terrain/ocean/scatter/urban/Cesium)
+- [[workflow-plugins]] — Workflow plugins (SketchUp/Rhino/Revit/3ds Max/Blender/ArchiCAD/VectorWorks)
+- [[virtual-tour]] — Virtual tours (panorama/spatial/XR)
+- [[animation-system]] — Animation system (path/keyframe/phasing)
+- [[widgets]] — Extension modules (stage light/projector/VR/color grading/project merge)
 
 ## Concepts
 
-- [[pbr-materials]] — PBR 材质系统
-- [[global-illumination]] — 全局光照（实时路径追踪 GI）
-- [[hdri-lighting]] — HDRI 照明
-- [[displacement-mapping]] — 置换贴图（True Displacement）
-- [[caustics]] — 焦散效果
-- [[post-processing]] — 后处理与颜色分级
-- [[volumetric-effects]] — 体积效果（云/雾/体积光）
+- [[pbr-materials]] — PBR material system
+- [[global-illumination]] — Global illumination (real-time path tracing GI)
+- [[hdri-lighting]] — HDRI lighting
+- [[displacement-mapping]] — Displacement mapping (True Displacement)
+- [[caustics]] — Caustic effects
+- [[post-processing]] — Post-processing and color grading
+- [[volumetric-effects]] — Volumetric effects (clouds/fog/volumetric light)
 - [[gaussian-splatting]] — 3D Gaussian Splatting
-- [[xr-technology]] — XR 扩展现实技术
-- [[depth-of-field]] — 景深与散景
+- [[xr-technology]] — XR extended reality technology
+- [[depth-of-field]] — Depth of field and bokeh
 
 ## Analyses & Comparisons
 
-- [[d5-vs-lumion-vs-enscape]] — D5 Render vs Lumion vs Enscape 全维度对比分析
+- [[d5-vs-lumion-vs-enscape]] — D5 Render vs Lumion vs Enscape full-dimensional comparison analysis
 
 ---
 
-*Last updated: 2026-04-13*
-*Total pages: 42*
-*Total sources: 22 (1 original + 10 manual + 13 blog + 1 initial)*
+*Last updated: 2026-04-17*
+*Total pages: 46*
+*Total sources: 26 (1 original + 10 manual + 13 blog + 3 sales/product + 3 legal)*

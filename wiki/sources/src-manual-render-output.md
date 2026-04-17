@@ -15,60 +15,60 @@ sources:
 tags: [manual, render, output, path-tracing, sr, video]
 ---
 
-D5 Render 用户手册的渲染输出章节，涵盖图像/视频渲染、实时路径追踪、超分辨率和帧生成技术。
+The Render & Output chapter of the D5 Render user manual, covering image/video rendering, real-time path tracing, super-resolution, and frame generation technologies.
 
-## 渲染模式
+## Render Modes
 
-渲染模式记录输出格式、分辨率、通道设置等参数，下次进入自动应用。
+Render modes record output format, resolution, channel settings, and other parameters, and are automatically applied when entering the mode next time.
 
-### 图像渲染
-- 支持单帧图像和全景图输出
-- 可选分辨率和格式
-- 支持通道图输出（法线、深度、反射等）
+### Image Rendering
+- Supports single-frame image and panoramic image output
+- Selectable resolution and format
+- Supports channel map output (normal, depth, reflection, etc.)
 
-### 视频渲染
-- 支持动画关键帧参数设置
-- 输出格式: MP4、AVI
-- 序列帧支持 PNG、EXR
+### Video Rendering
+- Supports animation keyframe parameter settings
+- Output formats: MP4, AVI
+- Sequence frames support PNG, EXR
 
-### 渲染队列
-批量渲染功能，可一次性渲染多个渲染任务。
+### Render Queue
+Batch rendering feature that can render multiple render tasks at once.
 
-## Real-time Path Tracing（实时路径追踪）
+## Real-time Path Tracing
 
-D5 自研 [[global-illumination|全局光照 (GI)]] 技术方案，优化实时渲染 + 图像/视频输出。
+D5's proprietary [[global-illumination|Global Illumination (GI)]] technology solution, optimizing real-time rendering + image/video output.
 
-### 偏好设置
-- **Legacy D5 GI Compatible Mode**: 启用 D5 2.9 版本的 ReSTIR Surfel GI，保持旧场景视觉一致性
+### Preferences
+- **Legacy D5 GI Compatible Mode**: Enables D5 version 2.9's ReSTIR Surfel GI to maintain visual consistency with older scenes
 
-### Accumulation（累积模式，快捷键 F4）
-- 启用后像素样本持续累积直至达到最终输出质量
-- 移动相机或按 ESC 终止
+### Accumulation (Shortcut Key F4)
+- When enabled, pixel samples continue to accumulate until the final output quality is reached
+- Moving the camera or pressing ESC terminates accumulation
 
-### 自定义参数
-| 参数 | 说明 |
-|------|------|
-| GI Precision | GI 精度级别，3 级，越高级 GI 质量越准确但收敛越慢 |
-| Refl. Depth | 光线在高反射面之间的反弹次数 |
-| SPP | 每像素采样数，增大可优化伪影 |
-| Roughness Limit | 粗糙度上限，默认 0.5，更高值使累积更准确 |
+### Custom Parameters
+| Parameter | Description |
+|-----------|-------------|
+| GI Precision | GI precision level, 3 levels; higher levels produce more accurate GI but slower convergence |
+| Refl. Depth | Number of light bounces between highly reflective surfaces |
+| SPP | Samples per pixel; increasing this reduces artifacts |
+| Roughness Limit | Roughness upper limit, default 0.5; higher values make accumulation more accurate |
 
-### 新 GI 主要改进
-1. **改进的 GI 缓存**: 路径追踪计算并缓存光线反弹，提升缓存质量
-2. **优化的 GI 弹射细节**: 墙地交接处等细节更准确
-3. **无偏采样和可见性检测**: 间接光照更接近 Ground Truth
-4. **优化的植被和布料材质**: 修复光传输中的色彩衰减问题
+### Key Improvements in the New GI
+1. **Improved GI Cache**: Path tracing calculates and caches light bounces, improving cache quality
+2. **Optimized GI Bounce Details**: More accurate at wall-floor junctions and similar details
+3. **Unbiased Sampling and Visibility Detection**: Indirect lighting closer to ground truth
+4. **Optimized Vegetation and Cloth Materials**: Fixes color attenuation issues in light transport
 
-## D5 SR（超分辨率）
+## D5 SR (Super Resolution)
 
-D5 自研超分辨率技术，提升渲染图像分辨率和质量。
+D5's proprietary super-resolution technology, enhancing rendered image resolution and quality.
 
-## Frame Generation（帧生成）
+## Frame Generation
 
-- 基于 FSR (FidelityFX Super Resolution) 技术
-- 提升实时预览帧率
-- 支持在偏好设置中启用
+- Based on FSR (FidelityFX Super Resolution) technology
+- Improves real-time preview frame rate
+- Can be enabled in Preferences
 
 ## FPS Booster
 
-复杂几何体的帧率优化工具，在保持视觉质量的前提下提升性能。
+A frame rate optimization tool for complex geometry, improving performance while maintaining visual quality.

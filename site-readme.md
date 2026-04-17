@@ -1,52 +1,52 @@
 # D5 Render Wiki — Agent Remote Access
 
-本站是 D5 Render LLM Wiki 的 GitHub Pages 部署，供 AI Agent 远程查阅。
+This site is the GitHub Pages deployment of the D5 Render LLM Wiki, designed for AI agents to access remotely.
 
-## 访问方式
+## Access Instructions
 
-### 第一步：查索引
+### Step 1: Query the Index
 
 ```
 https://bailu0404.github.io/D5-Render-Wiki/manifest.json
 ```
 
-返回所有页面的元数据列表，每条包含：
+Returns a metadata list of all pages, each entry containing:
 
-| 字段 | 说明 |
-|------|------|
-| `name` | 页面标识（对应 wikilink 名） |
-| `title` | 页面标题 |
-| `path` | 相对路径，如 `wiki/entities/ai-capabilities.md` |
-| `tags` | 标签列表 |
-| `sources` | 来源列表 |
-| `category` | 分类：entities / concepts / sources / analyses / root |
-| `updated` | 最后更新日期 |
+| Field | Description |
+|-------|-------------|
+| `name` | Page identifier (corresponds to wikilink name) |
+| `title` | Page title |
+| `path` | Relative path, e.g. `wiki/entities/ai-capabilities.md` |
+| `tags` | Tag list |
+| `sources` | Source list |
+| `category` | Category: entities / concepts / sources / analyses / root |
+| `updated` | Last updated date |
 
-按 `name` 或 `tags` 搜索定位目标页面。
+Search by `name` or `tags` to locate target pages.
 
-### 第二步：读页面
+### Step 2: Read a Page
 
-用 `base_url` + `/` + `path` 拼接完整 URL：
+Concatenate `base_url` + `/` + `path` to form the full URL:
 
 ```
 https://bailu0404.github.io/D5-Render-Wiki/{path}
 ```
 
-### 第三步：追踪 wikilink
+### Step 3: Follow Wikilinks
 
-页面内的 `[[page-name]]` 引用，回到 manifest 查找该 name 的 path，再拼接读取。
+For `[[page-name]]` references within a page, look up that name's path in the manifest, then concatenate and read.
 
-## 常用入口
+## Common Entry Points
 
-| 用途 | URL |
-|------|-----|
-| 搜索索引 | https://bailu0404.github.io/D5-Render-Wiki/manifest.json |
-| 全局速查 | https://bailu0404.github.io/D5-Render-Wiki/wiki/compact.md |
-| 页面目录 | https://bailu0404.github.io/D5-Render-Wiki/wiki/index.md |
-| 总览 | https://bailu0404.github.io/D5-Render-Wiki/wiki/overview.md |
+| Purpose | URL |
+|---------|-----|
+| Search index | https://bailu0404.github.io/D5-Render-Wiki/manifest.json |
+| Global quick reference | https://bailu0404.github.io/D5-Render-Wiki/wiki/compact.md |
+| Page directory | https://bailu0404.github.io/D5-Render-Wiki/wiki/index.md |
+| Overview | https://bailu0404.github.io/D5-Render-Wiki/wiki/overview.md |
 
-## Wiki 范围
+## Wiki Scope
 
-- 涵盖 D5 Render 2.x–3.x 版本
-- 内容：功能特性、渲染概念、工作流插件、AI 工具、资产库、团队协作、虚拟漫游、动画系统
-- 不含：内部实现细节、API/SDK 文档、定价与许可证
+- Covers D5 Render versions 2.x through 3.x
+- Content: features, rendering concepts, workflow plugins, AI tools, asset library, team collaboration, virtual walkthrough, animation system
+- Excludes: internal implementation details, API/SDK documentation, pricing and licensing

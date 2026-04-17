@@ -12,45 +12,45 @@ sources:
 tags: [lighting, sky, hdri, lights, gi]
 ---
 
-D5 Render 的光照系统包含自然光（天空系统）和人工光源两大体系，结合 [[global-illumination|全局光照]] 技术实现真实感光照。
+D5 Render's lighting system comprises two major systems — natural light (sky system) and artificial light sources — combined with [[global-illumination|Global Illumination]] technology for realistic lighting.
 
-## 天空系统
+## Sky System
 
-### Geo Sky（地理天空）
-基于地理位置精确模拟太阳角度，支持经纬度、时间、日期输入，可校正北方偏移。
+### Geo Sky
+Precisely simulates sun angles based on geographic location, supports latitude/longitude, time, and date input, and can correct north offset.
 
-### Custom（自定义天空）
-手动设置太阳/月亮的高度角、方位角，自定义天体参数。
+### Custom
+Manually set sun/moon altitude angle and azimuth angle; customize celestial body parameters.
 
 ### HDRI
-[[hdri-lighting|HDRI]] 既是背景也是光源，支持旋转、翻转、色温/色相调节、分辨率控制（2K/4K/8K/实际）。
+[[hdri-lighting|HDRI]] serves as both background and light source, supporting rotation, flipping, color temperature/hue adjustment, and resolution control (2K/4K/8K/Actual).
 
-## 人工光源
+## Artificial Light Sources
 
-D5 Render 提供 7 种光源类型：
+D5 Render provides 7 light source types:
 
-| 光源 | 用途 | 特殊参数 |
-|------|------|----------|
-| Point Light | 模拟灯泡 | 光源半径 |
-| Spotlight | 聚光灯 | IES 文件、锥角 |
-| Strip Light | 条形灯 | Barn Door |
-| Rect Light | 矩形面光 | Barn Door |
-| Disc Light | 圆盘光 | — |
-| Stage Light | 舞台灯 | 图案片、棱镜、烟雾 |
-| Projector | 投影灯 | 图片/视频投影 |
+| Light Source | Use Case | Special Parameters |
+|--------------|----------|--------------------|
+| Point Light | Simulates light bulbs | Light source radius |
+| Spotlight | Spotlight | IES file, cone angle |
+| Strip Light | Strip light | Barn Door |
+| Rect Light | Rectangular area light | Barn Door |
+| Disc Light | Disc light | — |
+| Stage Light | Stage light | Gobo, prism, smoke |
+| Projector | Projector light | Image/video projection |
 
-### 通用参数
+### Common Parameters
 - **Intensity**: 0~8,000,000 cd
-- **Attenuation Radius**: 光照衰减范围
-- **Temperature**: 3000K~8000K 色温
-- **Color**: 自定义颜色
-- **Visible in Reflection**: 反射中可见性
+- **Attenuation Radius**: Light attenuation range
+- **Temperature**: 3000K~8000K color temperature
+- **Color**: Custom color
+- **Visible in Reflection**: Visibility in reflections
 
-## AI 光照辅助
+## AI Lighting Assistance
 
-D5 3.0 的 AI Agent 提供光源辅助调整功能：
-- 自然语言指令调整光源参数
-- 自动优化场景光照
-- 支持区域照明优化和防过曝
+D5 3.0's AI Agent provides light source adjustment assistance:
+- Adjust light source parameters with natural language commands
+- Automatically optimize scene lighting
+- Supports area lighting optimization and overexposure prevention
 
-*来源: [[src-manual-lighting-environment]], [[src-blog-lighting-environment]]*
+*Sources: [[src-manual-lighting-environment]], [[src-blog-lighting-environment]]*

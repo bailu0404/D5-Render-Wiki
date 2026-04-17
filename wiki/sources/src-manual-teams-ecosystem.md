@@ -27,66 +27,66 @@ sources:
 tags: [manual, d5-lite, d5-for-teams, d5-studio, d5-launcher, ecosystem, collaboration]
 ---
 
-D5 Render 用户手册的生态系统与团队协作章节，涵盖 D5 Lite、D5 for Teams、D5 Studio 和 D5 Launcher。
+The Ecosystem & Team Collaboration chapter of the D5 Render user manual, covering D5 Lite, D5 for Teams, D5 Studio, and D5 Launcher.
 
 ## D5 Lite
 
-[[d5-lite|D5 Lite]] 是面向空间设计师的早期设计工具，直接运行在 SketchUp 等建模软件内。
+[[d5-lite|D5 Lite]] is an early-stage design tool for spatial designers, running directly inside modeling software such as SketchUp.
 
-### 核心特性
-- **AI 图生图**: 云端运行，无需本地算力，内置建筑/景观/室内等风格预设
-- **渲染引擎**: 作为插件运行在建模软件内，实时同步光照和材质数据
-- **D5 Render Sync**: 数据可一键发送到 D5 Render 进行深化
+### Core Features
+- **AI Image-to-Image**: Runs in the cloud, no local computing power required, with built-in style presets for architecture/landscape/interior
+- **Rendering Engine**: Runs as a plugin inside the modeling software, real-time syncing of lighting and material data
+- **D5 Render Sync**: Data can be sent to D5 Render with one click for further refinement
 
-### 使用条件
-- 需登录 D5 账户（与 D5 Render 相同）
-- AI 功能依赖云计算，需稳定网络连接
-- 资产库为在线模式，需先下载后使用
+### Usage Requirements
+- Requires logging into a D5 account (same as D5 Render)
+- AI features rely on cloud computing and require a stable network connection
+- The asset library is in online mode; assets must be downloaded before use
 
-### 功能模块
-- AI Generation — AI 图像生成
-- Real-time Rendering — 实时渲染
-- Scene List — 场景列表管理
-- D5 Render Sync — 同步到 D5 Render
+### Feature Modules
+- AI Generation — AI image generation
+- Real-time Rendering — Real-time rendering
+- Scene List — Scene list management
+- D5 Render Sync — Sync to D5 Render
 
 ## D5 for Teams
 
-[[d5-for-teams|D5 for Teams]] 提供团队协作的九大能力：
+[[d5-for-teams|D5 for Teams]] provides nine major team collaboration capabilities:
 
-1. **Team Management** — 团队账户创建与管理
-2. **Asset Management** — 团队资产库部署与管理
-3. **D5 Studio** — 云端空间与预设共享
-4. **Multi-editing** — 多人协同编辑
-5. **Comments** — 项目评论功能
-6. **D5 Showreel** — 展示平台
-7. **Data Analysis** — 团队数据分析
-8. **Application Integration** — 应用集成（OneDrive、SharePoint、Dropbox、ACC）
-9. **SSO** — 单点登录（Microsoft Azure、Okta）
+1. **Team Management** — Team account creation and management
+2. **Asset Management** — Team asset library deployment and management
+3. **D5 Studio** — Cloud space and preset sharing
+4. **Multi-editing** — Multi-user collaborative editing
+5. **Comments** — Project commenting feature
+6. **D5 Showreel** — Showcase platform
+7. **Data Analysis** — Team data analytics
+8. **Application Integration** — App integration (OneDrive, SharePoint, Dropbox, ACC)
+9. **SSO** — Single sign-on (Microsoft Azure, Okta)
 
-### Multi-editing（多人协同编辑）
-- 支持将项目转换为 Workset（工作集）
-- 支持同时打开多个工作集
-- 支持按图层设置可见性
-- 支持搜索和筛选资产
+### Multi-editing
+- Supports converting projects to Worksets
+- Supports opening multiple worksets simultaneously
+- Supports setting visibility by layer
+- Supports searching and filtering assets
 
-### 团队资产库
-- 支持部署到 NAS 共享文件夹
-- 支持设置 Windows 共享驱动器
-- 团队预设共享
+### Team Asset Library
+- Supports deployment to NAS shared folders
+- Supports setting up Windows shared drives
+- Team preset sharing
 
 ## D5 Studio
 
-[[d5-studio|D5 Studio]] 是 D5 的云端空间服务：
-- 保存和共享环境/特效预设
-- 支持 My Space（个人空间）和 Team Space（团队空间）
-- 社区精选资产
+[[d5-studio|D5 Studio]] is D5's cloud space service:
+- Save and share environment/effect presets
+- Supports My Space (personal space) and Team Space (team space)
+- Community-curated assets
 
 ## D5 Launcher
 
-[[d5-launcher|D5 Launcher]] 从 2.11 版本开始取代原欢迎页面：
-- **Home**: 创建/打开项目、最近项目、更新公告、案例场景
-- **Workflow**: 集成 D5 Render、D5 Lite、D5 Sync 插件
-- **Works**: 浏览和下载 [[d5-works|D5 Works]] 资产
-- **Projects**: 项目管理与合并
-- **Settings**: Launcher 相关设置
-- **Account**: 账户状态查看
+[[d5-launcher|D5 Launcher]] replaced the original welcome page starting from version 2.11:
+- **Home**: Create/open projects, recent projects, update announcements, sample scenes
+- **Workflow**: Integrates D5 Render, D5 Lite, and D5 Sync plugins
+- **Works**: Browse and download [[d5-works|D5 Works]] assets
+- **Projects**: Project management and merging
+- **Settings**: Launcher-related settings
+- **Account**: View account status

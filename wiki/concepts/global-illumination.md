@@ -10,36 +10,36 @@ sources:
 tags: [gi, path-tracing, rendering, lighting]
 ---
 
-全局光照 (Global Illumination, GI) 是模拟光线在场景中多次弹射的渲染技术，使间接光照（如色彩溢出、反射光）效果真实可信。D5 Render 采用自研实时路径追踪 GI 方案。
+Global Illumination (GI) is a rendering technique that simulates multiple light bounces within a scene, making indirect lighting effects (such as color bleed and reflected light) appear realistic and convincing. D5 Render employs its proprietary real-time path tracing GI solution.
 
-## D5 Render 的 GI 技术演进
+## D5 Render GI Technology Evolution
 
 ### ReSTIR Surfel GI (2.9)
-D5 Render 2.9 版本使用的 GI 方案，基于 ReSTIR 采样算法和 Surfel 缓存。
+The GI solution used in D5 Render version 2.9, based on the ReSTIR sampling algorithm and Surfel caching.
 
 ### Real-time Path Tracing (2.10+)
-2.10 版本引入全新路径追踪 GI：
-- **改进的 GI 缓存**: 路径追踪计算并缓存光线弹射，提升缓存质量
-- **高反射地面正确渲染**: 2.9 中金属地板反射不准确/偏黑的问题得到解决
-- **优化的 GI 弹射细节**: 墙地交接处等细节更准确
-- **无偏采样**: 间接光照更接近 Ground Truth
-- **优化的植被/布料材质**: 修复色彩衰减问题
+Version 2.10 introduced an entirely new path tracing GI:
+- **Improved GI Cache**: Path tracing computes and caches light bounces, improving cache quality
+- **Correct Rendering of Highly Reflective Surfaces**: The issue of inaccurate/darkened metal floor reflections in 2.9 has been resolved
+- **Optimized GI Bounce Details**: More accurate details at wall-floor junctions, etc.
+- **Unbiased Sampling**: Indirect lighting closer to Ground Truth
+- **Optimized Vegetation/Fabric Materials**: Fixed color attenuation issues
 
-## 自定义 GI 参数
+## Custom GI Parameters
 
-| 参数 | 说明 |
-|------|------|
-| GI Precision | GI 精度，3 级，越高级越准确但收敛越慢 |
-| Refl. Depth | 光线在高反射面之间的弹射次数 |
-| SPP | 每像素采样数，增大可优化伪影和细节 |
-| Roughness Limit | 粗糙度计算上限，默认 0.5 |
+| Parameter | Description |
+|-----------|-------------|
+| GI Precision | GI precision level (3 tiers); higher levels are more accurate but converge more slowly |
+| Refl. Depth | Number of light bounces between highly reflective surfaces |
+| SPP | Samples per pixel; increasing this reduces artifacts and improves detail |
+| Roughness Limit | Upper limit for roughness calculation, default 0.5 |
 
-## Accumulation 模式
+## Accumulation Mode
 
-快捷键 F4 启用累积模式，像素样本持续累积直至达到最终输出质量。移动相机或按 ESC 终止。
+Press F4 to enable accumulation mode, where pixel samples continuously accumulate until final output quality is reached. Moving the camera or pressing ESC terminates accumulation.
 
-## Legacy GI 兼容模式
+## Legacy GI Compatibility Mode
 
-在 Preference > Rendering 中可启用 "Legacy D5 GI Compatible Mode"，使用 2.9 版本的 ReSTIR Surfel GI 保持旧场景视觉一致性。此选项仅为兼容目的，将在未来版本移除。
+Enable "Legacy D5 GI Compatible Mode" in Preference > Rendering to use the ReSTIR Surfel GI from version 2.9 for visual consistency with older scenes. This option is for compatibility purposes only and will be removed in a future version.
 
-*来源: [[src-manual-render-output]], [[src-blog-camera-rendering]]*
+*Sources: [[src-manual-render-output]], [[src-blog-camera-rendering]]*

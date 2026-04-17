@@ -9,36 +9,36 @@ sources:
 tags: [virtual-tour, panorama, xr, gaussian-splatting, presentation]
 ---
 
-Virtual Tour 是 D5 Render 的交互式展示系统，提供全景漫游、空间漫游和 XR 漫游三种方式，让设计方案以沉浸式方式呈现给客户。
+Virtual Tour is D5 Render's interactive presentation system, offering three modes — Panorama Tour, Spatial Tour, and XR Tour — to present design proposals to clients in an immersive way.
 
-## 三种漫游类型
+## Three Tour Types
 
-### Panorama Tour（全景漫游）
-- 将 360° 全景图转为可分享的 Web 链接
-- 适合快速客户更新
-- 速度优先
+### Panorama Tour
+- Convert 360° panoramas into shareable web links
+- Ideal for quick client updates
+- Speed-oriented
 
-### Spatial Tour（空间漫游）
-- 集成平面图，设置特定航点
-- 引导观者按结构化叙事浏览空间
-- 提供清晰的空间上下文
+### Spatial Tour
+- Integrate floor plans and set specific waypoints
+- Guide viewers through spaces in a structured narrative
+- Provide clear spatial context
 
-### XR Tour（XR 漫游）
-- 基于 [[gaussian-splatting|3D Gaussian Splatting]] 技术
-- 将场景转换为高保真 3D 空间
-- 客户可在浏览器中自由探索空间
-- 支持导入 `.ply` 和 `.gs` 文件
-- 3D 扫描项目可直接导入场景
+### XR Tour
+- Based on [[gaussian-splatting|3D Gaussian Splatting]] technology
+- Convert scenes into high-fidelity 3D spaces
+- Clients can freely explore spaces in a browser
+- Supports importing `.ply` and `.gs` files
+- 3D scan projects can be directly imported into the scene
 
 ## D5 Showreel
 
-- 展示平台，管理和发布漫游项目
-- 3.0 版本集成到 MySpace 侧边栏
-- 统一管理个人资料和漫游项目
+- Showcase platform for managing and publishing tour projects
+- Integrated into the MySpace sidebar in version 3.0
+- Unified management of profile and tour projects
 
 ## Tour Editor
 
-- 漫游编辑器，统一管理所有漫游类型
-- 3.0 版本已集成到核心界面
+- Tour editor for unified management of all tour types
+- Integrated into the core interface in version 3.0
 
-*来源: [[src-manual-animation-tour]], [[src-blog-virtual-tour-xr]]*
+*Sources: [[src-manual-animation-tour]], [[src-blog-virtual-tour-xr]]*

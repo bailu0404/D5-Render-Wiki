@@ -10,29 +10,29 @@ sources:
 tags: [studio, cloud, presets, ecosystem]
 ---
 
-D5 Studio 是 D5 Render 的云端空间服务，用于保存、管理和共享渲染预设和资产。
+D5 Studio is D5 Render's cloud space service, used for saving, managing, and sharing rendering presets and assets.
 
-## 核心功能
+## Core Features
 
-### My Space（个人空间）
-- 保存环境/特效预设
-- 保存自定义材质预设
-- 管理个人收藏资产
+### My Space
+- Save environment/effect presets
+- Save custom material presets
+- Manage personal favorite assets
 
-### Team Space（团队空间）
-- [[d5-for-teams|D5 for Teams]] 用户专属
-- 团队预设共享
-- 统一资源管理
+### Team Space
+- Exclusive for [[d5-for-teams|D5 for Teams]] users
+- Team preset sharing
+- Unified resource management
 
-### Community Assets（社区精选）
-- D5 策划的社区资产集合
-- 一键应用其他用户分享的预设
+### Community Assets
+- D5-curated community asset collections
+- One-click application of presets shared by other users
 
-## 预设保存与重用
+## Preset Saving and Reuse
 
-- 保存环境与后处理特效预设
-- 可选择仅保存特效（不含 HDRI 等环境信息）
-- 预设可在不同项目间复用
-- 团队成员可共享预设
+- Save environment and post-processing effect presets
+- Option to save effects only (excluding HDRI and other environment information)
+- Presets can be reused across different projects
+- Team members can share presets
 
-*来源: [[src-manual-teams-ecosystem]], [[src-blog-d5-ecosystem]]*
+*Sources: [[src-manual-teams-ecosystem]], [[src-blog-d5-ecosystem]]*

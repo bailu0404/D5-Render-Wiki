@@ -16,57 +16,57 @@ sources:
 tags: [manual, getting-started, workflow, installation]
 ---
 
-D5 Render 用户手册的入门指南部分，涵盖安装配置、界面操作、工作流程概览。
+The Getting Started chapter of the D5 Render user manual, covering installation and configuration, interface operations, and workflow overview.
 
-## 系统要求
+## System Requirements
 
-- **最低 GPU**: NVIDIA GeForce GTX 1060 6GB
-- **推荐 GPU**: NVIDIA GeForce RTX 2060 或更高，Quadro RTX 系列
-- **系统**: Windows 10 1809 或更高版本
-- **驱动**: NVIDIA 471.68 或更高版本（建议最新）
-- 渲染管线基于 DX12 和 DXR
+- **Minimum GPU**: NVIDIA GeForce GTX 1060 6GB
+- **Recommended GPU**: NVIDIA GeForce RTX 2060 or higher, Quadro RTX series
+- **System**: Windows 10 1809 or higher
+- **Driver**: NVIDIA 471.68 or higher (latest recommended)
+- The rendering pipeline is based on DX12 and DXR
 
-## 下载与安装
+## Download & Installation
 
-### 2.5 版本之前
-解压安装包，默认安装到 C 盘，支持自定义路径。资产默认下载到安装路径，安装后可在"偏好设置"中迁移。
+### Before Version 2.5
+Extract the installation package, install to the C drive by default, with support for custom paths. Assets are downloaded to the installation path by default and can be migrated in Preferences after installation.
 
-### 2.5 版本（简化安装）
-安装包自动执行下载和安装。支持选择工作区路径，预设资产、本地资源和临时文件位置。
+### Version 2.5 (Simplified Installation)
+The installation package automatically executes download and installation. Supports selecting workspace paths for preset assets, local resources, and temporary file locations.
 
-### 2.11+ 版本（D5 Launcher）
-- 需先安装 [[d5-launcher]]，再通过 Launcher 下载 D5 Render
-- D5 Launcher 取代了原欢迎页面，打开场景时自动最小化到系统托盘
-- 集成 D5 Render、D5 Lite、D5 Sync 插件
+### Version 2.11+ (D5 Launcher)
+- Requires installing [[d5-launcher]] first, then downloading D5 Render through the Launcher
+- D5 Launcher replaces the original welcome page and automatically minimizes to the system tray when opening a scene
+- Integrates D5 Render, D5 Lite, and D5 Sync plugins
 
-## D5 Render 界面概览
+## D5 Render Interface Overview
 
-D5 Render 由三个主要部分组成：
-- **主界面**: 创建场景、调整模型、编辑材质
-- **渲染模式**: 添加渲染设置和编辑面板
-- **资产库**: 独立显示的资产浏览窗口
+D5 Render consists of three main parts:
+- **Main Interface**: Create scenes, adjust models, edit materials
+- **Render Mode**: Add render settings and editing panels
+- **Asset Library**: A separately displayed asset browsing window
 
-## 支持的文件格式
+## Supported File Formats
 
-- `.d5a` — D5 Render 模型格式
+- `.d5a` — D5 Render model format
 - `.skp` — SketchUp 2017+
 - `.3dm` — Rhino 6.5+
-- `.fbx` — 支持模型数据，不含材质
-- `.abc` — 仅支持导入场景
+- `.fbx` — Supports model data, no materials
+- `.abc` — Import to scene only
 
-## D5 Workflow 工作流
+## D5 Workflow
 
-D5 Render 的工作流分为六个核心环节：
+The D5 Render workflow is divided into six core stages:
 
-1. **界面、快捷键、相机** — 操作界面布局、快捷键设置、[[camera-and-view|相机控制]]
-2. **模型连接** — 通过 [[workflow-plugins|工作流插件]] 导入模型
-3. **材质** — [[pbr-materials|PBR 材质]]编辑与应用
-4. **景观** — [[tools-landscape|景观工具]]（地形、散布、植被）
-5. **环境与特效** — [[lighting-system|光照]]、[[environment-and-effects|天气]]、[[post-processing|后处理]]
-6. **图像与动画输出** — [[render-output|渲染输出]]
+1. **Interface, Shortcuts, Camera** — Interface layout, shortcut key settings, [[camera-and-view|camera controls]]
+2. **Model Connection** — Import models via [[workflow-plugins|workflow plugins]]
+3. **Materials** — [[pbr-materials|PBR material]] editing and application
+4. **Landscape** — [[tools-landscape|landscape tools]] (terrain, scatter, vegetation)
+5. **Environment & Effects** — [[lighting-system|lighting]], [[environment-and-effects|weather]], [[post-processing|post-processing]]
+6. **Image & Animation Output** — [[render-output|render output]]
 
-## 模型准备建议
+## Model Preparation Tips
 
-- 检查模型面法线方向，确保正确朝向
-- 确保模型完整，避免相机中出现破损或重叠面
-- 导入前整理好 UV 坐标，导入后可在 D5 中进行拉伸、偏移、旋转、三平面映射等调整
+- Check model face normal directions to ensure correct orientation
+- Ensure the model is complete, avoiding broken or overlapping faces in the camera view
+- Organize UV coordinates before import; after import, you can adjust stretch, offset, rotation, triplanar mapping, etc. in D5

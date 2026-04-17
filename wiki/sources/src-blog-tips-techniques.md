@@ -35,45 +35,45 @@ sources:
 tags: [blog, tips, techniques, interior, exterior, how-to]
 ---
 
-D5 Render 博客中关于渲染技巧与方法的文章合集，涵盖室内/室外渲染、风格化渲染和专题工作流。
+A collection of D5 Render blog articles on rendering tips and techniques, covering interior/exterior rendering, stylized rendering, and specialized workflows.
 
-## 室内渲染
+## Interior Rendering
 
-- SketchUp + D5 室内场景渲染
-- 室内视觉叙事
-- 复古室内设计
-- 中世纪住宅翻新
-- 室内设计加速工作流
-- 厨房设计与渲染
-- AutoCAD 室内设计师实时渲染
+- SketchUp + D5 interior scene rendering
+- Interior visual storytelling
+- Vintage interior design
+- Mid-century home renovation
+- Interior design accelerated workflow
+- Kitchen design and rendering
+- Real-time rendering for AutoCAD interior designers
 
-## 室外渲染
+## Exterior Rendering
 
-- 3 步室外渲染
-- 商业综合体渲染技巧
-- 立面设计可视化
-- 真实室外设计
+- 3-step exterior rendering
+- Commercial complex rendering tips
+- Facade design visualization
+- Realistic outdoor design
 
-## 天气与场景
+## Weather & Scenes
 
-- 真实雨景背景创建
-- 雪景渲染
-- 热带现代主义渲染
-- 赛博朋克城市
+- Creating realistic rain backgrounds
+- Snow scene rendering
+- Tropical modernism rendering
+- Cyberpunk city
 
-## 风格化渲染
+## Stylized Rendering
 
-- 风格化艺术创建
-- 热带现代主义
-- 历史建筑修复可视化
-- 展览设计可视化
+- Creating stylized art
+- Tropical modernism
+- Historical building restoration visualization
+- Exhibition design visualization
 
-## 专题工作流
+## Specialized Workflows
 
-- 建筑渲染细节增强
-- 赢得客户的视觉展示
-- 3D 模型转图纸
-- 实时可视化设计工作流
-- 资产工具加速可视化
+- Architectural rendering detail enhancement
+- Visual presentations that win clients
+- Converting 3D models to drawings
+- Real-time visualization design workflow
+- Asset tools for accelerated visualization
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

@@ -12,51 +12,51 @@ sources:
 tags: [render, output, path-tracing, sr, video, image]
 ---
 
-D5 Render 的渲染输出系统支持图像、视频和交互式展示，结合自研实时路径追踪和超分辨率技术，在速度与品质间取得平衡。
+D5 Render's render output system supports images, videos, and interactive presentations, combining in-house real-time path tracing and super-resolution technology to balance speed and quality.
 
-## 渲染模式
+## Render Modes
 
-进入渲染模式后，输出格式、分辨率、通道设置等参数自动记录并在下次应用。
+When entering render mode, output format, resolution, channel settings, and other parameters are automatically recorded and applied next time.
 
-### 图像渲染
-- 单帧图像和全景图
-- 支持多通道输出（法线、深度、反射等）
-- [[widgets|高级图像渲染 Widget]] 支持 PNG/JPG/TGA/TIF/EXR 格式
+### Image Rendering
+- Single-frame images and panoramas
+- Supports multi-channel output (normal, depth, reflection, etc.)
+- [[widgets|Advanced Image Rendering Widget]] supports PNG/JPG/TGA/TIF/EXR formats
 
-### 视频渲染
-- 支持动画关键帧和路径动画
-- 输出格式: MP4、AVI
-- 序列帧: PNG、EXR（含通道选择）
-- [[widgets|高级视频渲染 Widget]] 提供更多编码选项
+### Video Rendering
+- Supports animation keyframes and path animation
+- Output formats: MP4, AVI
+- Image sequences: PNG, EXR (with channel selection)
+- [[widgets|Advanced Video Rendering Widget]] provides more encoding options
 
-### 渲染队列
-批量渲染多个任务。
+### Render Queue
+Batch render multiple tasks.
 
 ## Real-time Path Tracing
 
-D5 自研 [[global-illumination|实时路径追踪]] 技术：
-- **Accumulation (F4)**: 像素累积至最终输出质量
-- **GI Precision**: 3 级精度控制
-- **Refl. Depth**: 反射弹射次数
-- **SPP**: 每像素采样数
-- **Roughness Limit**: 粗糙度计算上限
+D5's in-house [[global-illumination|real-time path tracing]] technology:
+- **Accumulation (F4)**: Pixel accumulation to final output quality
+- **GI Precision**: 3-level precision control
+- **Refl. Depth**: Reflection bounce count
+- **SPP**: Samples per pixel
+- **Roughness Limit**: Roughness calculation upper limit
 
-### 新 GI 改进
-- 路径追踪缓存提升反射质量
-- 更准确的 GI 弹射细节
-- 无偏采样接近 Ground Truth
-- 优化的植被/布料色彩模型
+### New GI Improvements
+- Path tracing cache improves reflection quality
+- More accurate GI bounce details
+- Unbiased sampling approaching ground truth
+- Optimized vegetation/fabric color models
 
-## D5 SR（超分辨率）
+## D5 SR (Super Resolution)
 
-自研超分辨率技术，提升渲染分辨率和细节。
+In-house super-resolution technology that enhances render resolution and detail.
 
-## Frame Generation（帧生成）
+## Frame Generation
 
-基于 FSR 技术，提升实时预览帧率。
+Based on FSR technology, boosts real-time preview frame rate.
 
 ## FPS Booster
 
-复杂几何体的帧率优化，在保持视觉质量前提下提升性能。
+Frame rate optimization for complex geometry, improving performance while maintaining visual quality.
 
-*来源: [[src-manual-render-output]], [[src-blog-camera-rendering]]*
+*Sources: [[src-manual-render-output]], [[src-blog-camera-rendering]]*

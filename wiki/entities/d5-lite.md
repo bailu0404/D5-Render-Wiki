@@ -8,36 +8,36 @@ sources:
 tags: [d5-lite, sketchup, ai, concept-design, ecosystem]
 ---
 
-D5 Lite 是面向空间设计师的早期概念设计工具，直接运行在 SketchUp 等建模软件内，结合 AI 图生图与实时渲染引擎，帮助设计师在项目初期快速探索设计方案。
+D5 Lite is an early-stage concept design tool for spatial designers, running directly within modeling software such as SketchUp. It combines AI image-to-image generation with a real-time rendering engine, helping designers quickly explore design options in the early phases of a project.
 
-## 核心特性
+## Core Features
 
-- **AI 图生图**: 云端运行，无需本地 GPU 算力，内置建筑/景观/室内等多种风格预设
-- **实时渲染引擎**: 作为插件运行在建模软件内，实时同步光照和材质数据
-- **D5 Render Sync**: 概念锁定后，数据可一键发送到 [[real-time-rendering|D5 Render]] 进行深化渲染
+- **AI Image-to-Image**: Runs on the cloud, no local GPU computing power required, with built-in style presets for architecture, landscape, interior, and more
+- **Real-time Rendering Engine**: Runs as a plugin within the modeling software, synchronizing lighting and material data in real time
+- **D5 Render Sync**: Once the concept is finalized, data can be sent to [[real-time-rendering|D5 Render]] with one click for detailed rendering
 
-## 使用条件
+## Usage Requirements
 
-- 需登录 D5 账户（与 D5 Render 相同）
-- AI 功能依赖云计算，需稳定网络连接
-- 资产库为在线模式，需先下载后使用
+- D5 account login required (same as D5 Render)
+- AI features rely on cloud computing and require a stable network connection
+- Asset library is in online mode; assets must be downloaded before use
 
-## 功能模块
+## Feature Modules
 
-| 模块 | 功能 |
-|------|------|
-| AI Generation | AI 图像生成与风格探索 |
-| Real-time Rendering | 实时渲染预览 |
-| Scene List | 场景列表管理 |
-| D5 Render Sync | 一键同步到 D5 Render |
+| Module | Function |
+|--------|----------|
+| AI Generation | AI image generation and style exploration |
+| Real-time Rendering | Real-time rendering preview |
+| Scene List | Scene list management |
+| D5 Render Sync | One-click sync to D5 Render |
 
-## 在 D5 工作流中的定位
+## Position in the D5 Workflow
 
-D5 Lite 是 [[d5-launcher|D5 Launcher]] 集成的全流程起点：
-1. **D5 Lite** — 概念探索与快速可视化
-2. **[[d5-works|D5 Works]]** — 资产资源获取
-3. **D5 Render** — 高品质最终渲染
+D5 Lite is the full-workflow starting point integrated into [[d5-launcher|D5 Launcher]]:
+1. **D5 Lite** — Concept exploration and rapid visualization
+2. **[[d5-works|D5 Works]]** — Asset resource acquisition
+3. **D5 Render** — High-quality final rendering
 
-> D5 Lite 解决了"设置疲劳"问题 — 设计师可以在概念阶段自由调整光线、氛围和体量，无需等待模型完成即可开始可视化。
+> D5 Lite solves the "setup fatigue" problem — designers can freely adjust lighting, atmosphere, and massing during the concept phase without waiting for the model to be completed before starting visualization.
 
-*来源: [[src-manual-teams-ecosystem]], [[src-blog-d5-ecosystem]]*
+*Sources: [[src-manual-teams-ecosystem]], [[src-blog-d5-ecosystem]]*

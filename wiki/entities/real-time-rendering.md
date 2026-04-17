@@ -1,5 +1,5 @@
 ---
-title: 实时渲染
+title: Real-time Rendering
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -9,17 +9,17 @@ tags:
   - rendering
 ---
 
-# 实时渲染
+# Real-time Rendering
 
-D5 Render 的核心功能——提供即时反馈与照片级输出质量，使设计师能够实时预览并快速出图，覆盖从设计到展示的完整工作流。
+D5 Render's core feature — providing instant feedback and photorealistic output quality, enabling designers to preview in real time and produce images quickly, covering the complete workflow from design to presentation.
 
 > "Instant Feedback, Quick Output, Excellent Quality"
 
-## 相关概念
+## Related Concepts
 
-- [[path-tracing]] — 实时渲染的底层技术
-- [[pbr-materials]] — PBR 材质在实时渲染中的表现
+- [[path-tracing]] — The underlying technology of real-time rendering
+- [[pbr-materials]] — PBR material performance in real-time rendering
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

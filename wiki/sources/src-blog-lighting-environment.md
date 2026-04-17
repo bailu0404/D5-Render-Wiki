@@ -21,42 +21,42 @@ sources:
 tags: [blog, lighting, hdri, gi, fog, environment, atmosphere]
 ---
 
-D5 Render 博客中关于光照与环境的文章合集，涵盖环境光照、HDRI 资源、GI 技术和天气效果。
+A collection of D5 Render blog articles on lighting and environment, covering environmental lighting, HDRI resources, GI technology, and weather effects.
 
-## 环境光照
+## Environmental Lighting
 
-- 建筑真实环境光照的 4 大技巧
-- 1 分钟设置真实背景
-- 城市鸟瞰渲染技巧
-- 大气透视与鸟瞰渲染
+- 4 best tips for realistic environmental lighting in architecture
+- Set a realistic background in 1 minute
+- City aerial view rendering tips
+- Atmospheric perspective and aerial rendering
 
 ## HDRI
 
-- 免费 HDRI 下载资源大全
-- HDRI 选择和使用指南
+- Comprehensive free HDRI download resources
+- HDRI selection and usage guide
 
-## 全局光照
+## Global Illumination
 
-- [[global-illumination|D5 GI]] 详解
-- GI Ground Truth 对比
-- 实时路径追踪技术
+- [[global-illumination|D5 GI]] explained
+- GI Ground Truth comparison
+- Real-time path tracing technology
 
-## 室内照明
+## Interior Lighting
 
-- 暗房照明技巧
-- SketchUp 室内照明最佳实践
-- ArchiCAD AI 光照可视化
+- Dark room lighting techniques
+- Best practices for SketchUp interior lighting
+- ArchiCAD AI lighting visualization
 
-## 夜景渲染
+## Night Rendering
 
-- D5 Render 夜景创建方法
-- 智能照明系统使用指南
+- How to create night renders in D5 Render
+- Smart lighting system usage guide
 
-## 天气与氛围
+## Weather and Atmosphere
 
-- 真实雾效渲染技巧
-- 体积云与天空替换
-- 真实室外设计
-- AI Atmosphere Match 应用
+- Realistic fog rendering techniques
+- Volumetric clouds and sky replacement
+- Realistic outdoor design
+- AI Atmosphere Match application
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

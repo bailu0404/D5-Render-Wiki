@@ -13,30 +13,30 @@ sources:
 tags: [blog, virtual-tour, xr, gaussian-splatting, panorama, cesium]
 ---
 
-D5 Render 博客中关于虚拟漫游与 XR 技术的文章合集，涵盖全景漫游、XR Tour、Gaussian Splatting 和 Cesium 地理空间集成。
+A collection of D5 Render blog articles on virtual tours and XR technology, covering panoramic tours, XR Tour, Gaussian Splatting, and Cesium geospatial integration.
 
-## 虚拟漫游
+## Virtual Tours
 
-- D5 Render 创建虚拟漫游指南
-- 全景评论与 3D 设计协作
-- 沉浸式空间展示
+- Guide to creating virtual tours with D5 Render
+- Panoramic comments and 3D design collaboration
+- Immersive space showcase
 
-## XR 技术
+## XR Technology
 
-- [[xr-technology|XR]] 技术如何改变建筑
-- XR Tour 创建与发布
-- 3D Gaussian Splatting 实战
+- How [[xr-technology|XR]] technology is transforming architecture
+- XR Tour creation and publishing
+- 3D Gaussian Splatting in practice
 
 ## Gaussian Splatting
 
-- MP4 视频转 3D 模型
-- .ply/.gs 文件导入
-- 比摄影测量更清晰、更流畅
+- MP4 video to 3D model conversion
+- .ply/.gs file import
+- Clearer and smoother than photogrammetry
 
-## Cesium 地理空间
+## Cesium Geospatial
 
-- Cesium 3D 地图使用 (3 步)
-- 精确城市环境数据加载
-- 无需手动建模周边建筑
+- Cesium 3D map usage (3 steps)
+- Accurate urban environment data loading
+- No need to manually model surrounding buildings
 
-*来源: D5 Render Blog, 2024-2026*
+*Source: D5 Render Blog, 2024-2026*

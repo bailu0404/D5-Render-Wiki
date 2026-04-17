@@ -37,57 +37,57 @@ sources:
 tags: [blog, workflow, sketchup, rhino, revit, 3ds-max, blender, archicad, vectorworks]
 ---
 
-D5 Render 博客中关于工作流插件的文章合集，涵盖所有主流建模软件与 D5 Render 的集成方案。
+A collection of D5 Render blog articles on workflow plugins, covering integration solutions for all major modeling software with D5 Render.
 
-## SketchUp 工作流
+## SketchUp Workflow
 
-最完整的工作流支持，覆盖最广：
-- D5 Sync + D5 LiveSync 双模式
-- D5 Lite 深度集成
-- AI 工具对比: D5 Lite vs Midjourney
-- SketchUp 2025 + D5 Render 工作流
-- 免费 SketchUp 模型 → D5 Pro 渲染
+The most complete workflow support with the broadest coverage:
+- D5 Sync + D5 LiveSync dual mode
+- D5 Lite deep integration
+- AI tool comparison: D5 Lite vs Midjourney
+- SketchUp 2025 + D5 Render workflow
+- Free SketchUp models → D5 Pro rendering
 
-## Rhino 工作流
+## Rhino Workflow
 
-- LiveSync 实时同步
-- Rhino 8 新功能配合
-- 最佳实时渲染工作流指南
+- LiveSync real-time synchronization
+- Rhino 8 new feature integration
+- Best real-time rendering workflow guide
 
-## Revit 工作流
+## Revit Workflow
 
-- D5 Sync 非实时同步
-- Revit 2024 设计与渲染
-- Revit 建筑动画工作流
+- D5 Sync non-real-time synchronization
+- Revit 2024 design and rendering
+- Revit architectural animation workflow
 - Revit LiveSync (Modunites)
 
-## 3ds Max 工作流
+## 3ds Max Workflow
 
-- V-Ray/Corona 用户转向 D5 的理由
+- Reasons for V-Ray/Corona users to switch to D5
 - D5 LiveSync for 3ds Max (Beta)
-- 动画渲染工作流
+- Animation rendering workflow
 
-## Blender 工作流
+## Blender Workflow
 
-- D5 Sync 同步
-- Blender archviz 工作流
-- 专业 Blender 艺术家转向 D5
+- D5 Sync synchronization
+- Blender archviz workflow
+- Professional Blender artists switching to D5
 
-## ArchiCAD 工作流
+## ArchiCAD Workflow
 
-- ArchiCAD 26/27 工作流
-- BIM 工作流集成
-- 大规模建筑设计
-- 室内可视化案例
+- ArchiCAD 26/27 workflow
+- BIM workflow integration
+- Large-scale architectural design
+- Interior visualization showcase
 
 ## VectorWorks / Cinema 4D
 
 - VectorWorks LiveSync
-- Cinema 4D 实时渲染
+- Cinema 4D real-time rendering
 
-## 通用工作流
+## General Workflows
 
-- 智能插件无缝集成
-- D5 Converter 使用指南
+- Smart plugin seamless integration
+- D5 Converter usage guide
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

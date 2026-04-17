@@ -30,43 +30,43 @@ sources:
 tags: [blog, assets, landscape, terrain, ocean, scatter, plants, cesium]
 ---
 
-D5 Render 博客中关于资产库与景观设计的文章合集，涵盖在线资产、植被、地形工具和景观渲染技巧。
+A collection of D5 Render blog articles on the asset library and landscape design, covering online assets, vegetation, terrain tools, and landscape rendering techniques.
 
-## 资产库更新
+## Asset Library Updates
 
-- 快速高质量场景构建的资产库使用
-- 260+ 新动画植物模型
-- 30 款竹子模型与景观石
-- 1200+ 品牌室内设计模型
-- 日本设计师专属模型包
-- 节省时间的室内视差资产
-- 比例人物让设计"活"起来
-- 水纹理提升作品质感
+- Using the asset library for rapid, high-quality scene building
+- 260+ new animated plant models
+- 30 bamboo models and landscape stones
+- 1200+ branded interior design models
+- Exclusive model packs for Japanese designers
+- Time-saving interior parallax assets
+- Scale figures that bring designs to life
+- Water textures to elevate your work
 
-## 植被与草地
+## Vegetation and Grass
 
-- 完美草叶创建方法
-- 3 步实现照片级草地
-- 日本庭院设计与动画植物
-- 美学植物设计
+- How to create the perfect blade of grass
+- 3 steps to photorealistic grass
+- Japanese garden design with animated plants
+- Aesthetic plant design
 
-## 地形与景观
+## Terrain and Landscape
 
-- 建筑景观地形渲染
-- D5 Scatter 变革 3D 环境设计
-- 景观设计师顶级渲染工作流
-- 景观建筑与 3D 渲染
+- Architectural landscape terrain rendering
+- D5 Scatter transforms 3D environment design
+- Top-notch rendering workflow for landscape designers
+- Landscape architecture and 3D rendering
 
-## 海洋与城市
+## Ocean and City
 
-- 真实海洋波浪
-- 城市规划与城市生成器
-- 3.0 全新海洋系统
+- Realistic ocean waves
+- Urban planning and City Generator
+- 3.0 all-new ocean system
 
-## 地理空间
+## Geospatial
 
-- Cesium 3D 地图使用
-- 地理空间数据在建筑可视化中的应用
-- Quixel Bridge 到 D5 Render 的工作流
+- Using Cesium for 3D mapping
+- Leveraging geospatial data in architectural visualization
+- Quixel Bridge to D5 Render workflow
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

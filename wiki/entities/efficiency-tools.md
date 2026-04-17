@@ -1,5 +1,5 @@
 ---
-title: 效率工具
+title: Efficiency Tools
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -10,17 +10,17 @@ tags:
   - workflow
 ---
 
-# 效率工具
+# Efficiency Tools
 
-D5 Render 提供的一站式场景构建工具集，涵盖基础光源、植物笔刷等直观易用的工具，帮助用户高效搭建场景。
+A one-stop scene building toolkit provided by D5 Render, covering intuitive and easy-to-use tools such as basic light sources and plant brushes, helping users efficiently construct scenes.
 
 > "Build the Scene with Everything You Need"
 
-## 相关概念
+## Related Concepts
 
-- [[asset-tools]] — 资产工具
-- [[ai-capabilities]] — AI 辅助提升效率
+- [[asset-tools]] — Asset tools
+- [[ai-capabilities]] — AI-assisted efficiency improvements
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

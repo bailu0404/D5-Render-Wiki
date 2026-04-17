@@ -9,31 +9,31 @@ sources:
 tags: [caustics, light, refraction, reflection, water]
 ---
 
-焦散 (Caustics) 是光线通过透明或反射表面折射/反射后产生的聚焦光斑效果，如水面波光、玻璃透射光斑等。D5 Render 支持太阳焦散效果。
+Caustics are focused light patterns produced when light refracts or reflects through transparent or reflective surfaces, such as shimmering water surfaces or light spots transmitted through glass. D5 Render supports sun caustics effects.
 
-## 启用条件
+## Enabling Requirements
 
-焦散效果需**同时在材质和光源两端启用**：
+Caustics must be **enabled on both the material and light source sides**:
 
-### 光源端
-在 Geo Sky / Custom Daytime 的 Caustics 选项中启用：
-- **Caustics Intensity**: 焦散效果强度倍增
-- **Softness**: 焦散柔化程度（当 Light Source Radius > 0 时生效）
+### Light Source Side
+Enable in the Caustics option under Geo Sky / Custom Daytime:
+- **Caustics Intensity**: Caustics effect intensity multiplier
+- **Softness**: Caustics softness level (takes effect when Light Source Radius > 0)
 
-### 材质端
-仅以下材质模板支持焦散：
+### Material Side
+Only the following material templates support caustics:
 
-| 材质模板 | 反射焦散 | 折射焦散 |
-|----------|----------|----------|
+| Material Template | Reflection Caustics | Refraction Caustics |
+|-------------------|---------------------|----------------------|
 | Custom | ✓ | — |
 | Transparent | ✓ | ✓ |
 | Water | ✓ | ✓ |
 
-## 实际应用
+## Practical Applications
 
-- 水面波光粼粼的效果
-- 玻璃透射的光斑
-- 金属反射的聚焦光线
-- 游泳池底部的光线图案
+- Shimmering water surface effects
+- Light spots transmitted through glass
+- Focused light from metal reflections
+- Light patterns on swimming pool bottoms
 
-*来源: [[src-manual-lighting-environment]], [[src-manual-material]]*
+*Sources: [[src-manual-lighting-environment]], [[src-manual-material]]*

@@ -16,47 +16,47 @@ sources:
 tags: [manual, workflow, plugin, sync, livesync, sketchup, rhino, revit, 3ds-max, blender, archicad, vectorworks]
 ---
 
-D5 Render 用户手册的工作流插件章节，涵盖所有建模软件与 D5 Render 之间的同步和实时同步插件。
+The Workflow Plugins chapter of the D5 Render user manual, covering all sync and live sync plugins between modeling software and D5 Render.
 
-## 插件类型
+## Plugin Types
 
-### D5 Sync（同步插件）
-非实时同步，将模型数据从建模软件导出到 D5 Render。支持模型更新和替换。
+### D5 Sync (Sync Plugin)
+Non-real-time sync that exports model data from modeling software to D5 Render. Supports model updates and replacement.
 
-### D5 LiveSync（实时同步插件）
-实时同步，建模软件中的修改即时反映在 D5 Render 中。
+### D5 LiveSync (Live Sync Plugin)
+Real-time sync where modifications in the modeling software are instantly reflected in D5 Render.
 
-## 支持的建模软件
+## Supported Modeling Software
 
-| 软件 | Sync | LiveSync | 说明 |
-|------|------|----------|------|
-| SketchUp | ✓ | ✓ | 最完整的工作流支持 |
-| Rhino | ✓ | ✓ | 支持 Rhino 6.5+ |
-| 3ds Max | ✓ | ✓ (Beta) | 支持 V-Ray/Corona 功能对照表 |
-| Revit | ✓ | ✗ | 非实时同步 |
-| ArchiCAD | ✓ | ✓ | 支持 ArchiCAD 26/27 |
-| Blender | ✓ | ✗ | 非实时同步 |
-| VectorWorks | ✗ | ✓ | 仅实时同步 |
-| Cinema 4D | ✓ | ✗ | 非实时同步 |
+| Software | Sync | LiveSync | Notes |
+|----------|------|----------|-------|
+| SketchUp | Yes | Yes | Most complete workflow support |
+| Rhino | Yes | Yes | Supports Rhino 6.5+ |
+| 3ds Max | Yes | Yes (Beta) | Supports V-Ray/Corona feature comparison table |
+| Revit | Yes | No | Non-real-time sync only |
+| ArchiCAD | Yes | Yes | Supports ArchiCAD 26/27 |
+| Blender | Yes | No | Non-real-time sync only |
+| VectorWorks | No | Yes | Live sync only |
+| Cinema 4D | Yes | No | Non-real-time sync only |
 
-## 3ds Max 特殊说明
+## 3ds Max Special Notes
 
-- 支持 V-Ray 功能对照表，列出 V-Ray 功能在 D5 中的对应情况
-- 支持 Corona 功能对照表
-- LiveSync 目前为 Beta 版本
+- Supports V-Ray feature comparison table, listing how V-Ray features correspond in D5
+- Supports Corona feature comparison table
+- LiveSync is currently in Beta
 
-## 通用问题
+## General Questions
 
-- 插件安装与卸载
-- 从 D5 Converter 启动 D5 时的常见错误
-- 同步超时问题
-- 建模软件与 D5 顶视图方向不一致
-- `.d5a` 文件组结构对齐同步坐标问题
+- Plugin installation and uninstallation
+- Common errors when launching D5 from D5 Converter
+- Sync timeout issues
+- Top view direction mismatch between modeling software and D5
+- `.d5a` file group structure alignment and sync coordinate issues
 
-## 异常情况处理
+## Abnormal Situations
 
-### LiveSync 异常
-- 同步后材质拾取异常的处理方法
+### LiveSync Abnormalities
+- Handling methods for material picking issues after sync
 
-### Sync 异常
-- 使用 Sync for 3ds Max 替换模型时位移问题的处理方法
+### Sync Abnormalities
+- Handling methods for displacement issues when replacing models using Sync for 3ds Max

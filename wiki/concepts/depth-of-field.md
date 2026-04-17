@@ -8,29 +8,29 @@ sources:
 tags: [dof, camera, bokeh, photography]
 ---
 
-景深 (Depth of Field, DoF) 是模拟真实相机镜头的焦点范围效果 — 焦点外区域自然模糊，引导观者视线聚焦于关键设计元素。
+Depth of Field (DoF) simulates the focal range effect of a real camera lens — areas outside the focal point blur naturally, guiding the viewer's attention to key design elements.
 
-## D5 Render 中的景深
+## Depth of Field in D5 Render
 
-### 设置方法
-- 在视图控制面板中启用
-- 调整焦点距离 (Focus Distance)
-- 调整光圈大小 (Aperture / F-Stop)
+### How to Enable
+- Enable in the View control panel
+- Adjust Focus Distance
+- Adjust Aperture size (F-Stop)
 
-### 参数控制
-- **Focus Distance**: 焦点距离，决定清晰区域的位置
-- **Aperture**: 光圈大小，控制模糊程度和范围
-- **Bokeh**: 散景效果，焦点外高光的模糊形状
+### Parameter Controls
+- **Focus Distance**: Distance to the focal point, determines the position of the sharp area
+- **Aperture**: Aperture size, controls the degree and range of blur
+- **Bokeh**: Bokeh effect, the blurred shape of highlights outside the focal point
 
-## 景深动画
+## Depth of Field Animation
 
-景深参数可作为关键帧进行动画：
-- 焦点距离随时间变化
-- 实现焦点转移的电影级效果
-- 适合建筑漫游动画
+Depth of field parameters can be animated as keyframes:
+- Focus distance changes over time
+- Achieve cinematic focus-pull effects
+- Suitable for architectural walkthrough animations
 
-## 摄影级渲染
+## Photographic Rendering
 
-结合景深与其他相机效果（曝光、白平衡、色差、暗角等），D5 Render 帮助艺术家实现从数字化到摄影化的渲染质感。
+Combined with other camera effects (exposure, white balance, chromatic aberration, vignette, etc.), D5 Render helps artists achieve a rendering quality that transitions from digital to photographic.
 
-*来源: [[src-manual-hardware-preference]], [[src-blog-animation]]*
+*Sources: [[src-manual-hardware-preference]], [[src-blog-animation]]*

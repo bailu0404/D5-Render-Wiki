@@ -22,88 +22,88 @@ sources:
 tags: [manual, lighting, environment, sky, hdri, weather, effect, post-processing]
 ---
 
-D5 Render 用户手册的光照、环境与特效章节，涵盖 7 种光源类型、天空系统、天气效果和后处理参数。
+The Lighting, Environment & Effects chapter of the D5 Render user manual, covering 7 light source types, the sky system, weather effects, and post-processing parameters.
 
-## 光源类型
+## Light Source Types
 
-D5 Render 提供 7 种光源：
+D5 Render offers 7 types of light sources:
 
-### 基础光源
-1. **Point Light** — 点光源，模拟灯泡，均匀向各方向发光
-2. **Spotlight** — 聚光灯，锥形角度内发光，支持 IES 文件
-3. **Strip Light** — 条形灯，可调长宽，带 Barn Door 挡光板
-4. **Rect Light** — 矩形面光源，模拟矩形发光区域
+### Basic Lights
+1. **Point Light** — Point light source, simulates a light bulb, emits light uniformly in all directions
+2. **Spotlight** — Spotlight, emits light within a cone angle, supports IES files
+3. **Strip Light** — Strip light, adjustable length and width, with Barn Door light blockers
+4. **Rect Light** — Rectangular area light, simulates a rectangular emissive area
 
-### 扩展光源
-5. **Disc Light** — 圆盘光源，柔和均匀照明
-6. **Stage Light** — 舞台灯（Widget），支持图案片、棱镜分光、烟雾效果
-7. **Projector** — 投影灯（Widget），支持图片/视频投影
+### Extended Lights
+5. **Disc Light** — Disc light, soft and uniform illumination
+6. **Stage Light** — Stage light (Widget), supports gobos, prism splitting, and smoke effects
+7. **Projector** — Projector light (Widget), supports image/video projection
 
-## 通用光源参数
+## Common Light Parameters
 
-| 参数 | 说明 |
-|------|------|
-| Intensity | 发光强度，单位 cd (坎德拉)，最大 8,000,000 |
-| Attenuation Radius | 衰减半径，范围外停止光照计算 |
-| Visible in Reflection | 控制光源是否出现在反射中 |
-| Temperature | 色温 (K)，3000K 偏黄，5500-6500K 白光，8000K 偏蓝 |
-| Color | 自定义光源颜色 |
+| Parameter | Description |
+|-----------|-------------|
+| Intensity | Emission intensity, unit cd (candela), maximum 8,000,000 |
+| Attenuation Radius | Attenuation radius; lighting calculations stop beyond this range |
+| Visible in Reflection | Controls whether the light source appears in reflections |
+| Temperature | Color temperature (K); 3000K is warm/yellow, 5500-6500K is neutral white, 8000K is cool/blue |
+| Color | Custom light source color |
 
-### 特殊参数
-- **Point Light**: 光源半径（影响阴影柔和度）
-- **Spotlight**: IES 文件、锥角
-- **Strip/Rect Light**: Barn Door Angle (0°-90°) 和 Barn Door Length (0-100)
-- **Stage Light**: 图案、棱镜分光、旋转、烟雾
-- **Projector**: 投影画面/视频、UV 控制、薄雾效果
+### Special Parameters
+- **Point Light**: Light source radius (affects shadow softness)
+- **Spotlight**: IES file, cone angle
+- **Strip/Rect Light**: Barn Door Angle (0-90 degrees) and Barn Door Length (0-100)
+- **Stage Light**: Gobo, prism splitting, rotation, smoke
+- **Projector**: Projected image/video, UV control, mist effect
 
-## 天空系统
+## Sky System
 
-### Geo Sky（地理天空）
-基于地理位置精确模拟太阳角度：
-- **North Offset**: 校正北方方向
-- **Time / Date**: 时间和日期
-- **Latitude / Longitude**: 经纬度坐标（十进制度数）
-- **自定义参数**: 太阳强度、太阳盘半径、月光强度、月亮盘半径、星光强度
-- **[[caustics|Caustics]]**: 太阳焦散，需同时在材质和光源端启用
+### Geo Sky
+Accurately simulates sun angles based on geographic location:
+- **North Offset**: Corrects the north direction
+- **Time / Date**: Time and date
+- **Latitude / Longitude**: Latitude and longitude coordinates (decimal degrees)
+- **Custom Parameters**: Sun intensity, sun disk radius, moonlight intensity, moon disk radius, starlight intensity
+- **[[caustics|Caustics]]**: Sun caustics, requires enabling on both the material and light source sides
 
-### Custom（自定义天空）
-- 白天: 太阳强度、高度角、方位角、焦散
-- 夜间: 月光强度、月亮盘半径、月相、月相方向、高度角、方位角、星光强度
+### Custom Sky
+- Daytime: Sun intensity, elevation angle, azimuth, caustics
+- Nighttime: Moonlight intensity, moon disk radius, moon phase, moon phase direction, elevation angle, azimuth, starlight intensity
 
 ### HDRI
 
-[[hdri-lighting|HDRI]]（高动态范围图像）不仅是背景，还照亮整个场景：
-- **Light**: 整体亮度控制，分别调节 Skylight（漫反射光）和 Background（背景亮度）
-- **Rotate**: 旋转 HDRI 环境
-- **Flip Horizontal**: 水平翻转
-- **Sky Temperature**: 天空色温，默认 6500K
-- **Sky Color**: 色相和饱和度调整
-- **HDRI Resolution**: 支持 2K、4K、8K 和实际分辨率
+[[hdri-lighting|HDRI]] (High Dynamic Range Image) is not just a background — it also illuminates the entire scene:
+- **Light**: Overall brightness control, separately adjusts Skylight (diffuse light) and Background (background brightness)
+- **Rotate**: Rotate the HDRI environment
+- **Flip Horizontal**: Flip horizontally
+- **Sky Temperature**: Sky color temperature, default 6500K
+- **Sky Color**: Hue and saturation adjustments
+- **HDRI Resolution**: Supports 2K, 4K, 8K, and native resolution
 
-## 天气效果
+## Weather Effects
 
-- **Fog**: 雾效，支持体积光
-- **Rain**: 雨天效果
-- **Snow**: 雪景效果
-- **Volumetric Cloud**: 体积云 (3.0+)，支持预设和密度/海拔调节
+- **Fog**: Fog effect, supports volumetric lighting
+- **Rain**: Rain effect
+- **Snow**: Snow effect
+- **Volumetric Cloud**: Volumetric clouds (3.0+), supports presets and density/altitude adjustments
 
-## 后处理特效
+## Post-Processing Effects
 
-### AO（环境光遮蔽）
-在 Style 面板中使用，增强角落和缝隙的阴影细节。
+### AO (Ambient Occlusion)
+Used in the Style panel to enhance shadow details in corners and crevices.
 
-### Z-Depth（Z 深度）
-在 Style 面板中使用，基于深度的效果控制。
+### Z-Depth
+Used in the Style panel for depth-based effect control.
 
 ### LUT
-查找表颜色分级，支持自定义 LUT 文件。
+Lookup table color grading, supports custom LUT files.
 
-### 后处理参数
-- **Exposure**: 曝光
-- **Contrast**: 对比度
-- **Highlight / Shadow**: 高光/阴影
-- **White Balance**: 白平衡
-- **Vignette**: 暗角
-- **Chromatic Aberration**: 色差
-- **Bloom**: 泛光
-- **Color Grading** (Widget): 精确控制中间调、阴影、高光和全局色调
+### Post-Processing Parameters
+- **Exposure**: Exposure
+- **Contrast**: Contrast
+- **Highlight / Shadow**: Highlights/shadows
+- **White Balance**: White balance
+- **Vignette**: Vignette
+- **Chromatic Aberration**: Chromatic aberration
+- **Bloom**: Bloom
+- **Color Grading** (Widget): Precise control over midtones, shadows, highlights, and global tone

@@ -15,29 +15,29 @@ sources:
 tags: [blog, animation, keyframe, phasing, cinematic]
 ---
 
-D5 Render 博客中关于动画的文章合集，涵盖关键帧动画、渐变动画、电影级动画和建筑动画技巧。
+A collection of D5 Render blog articles on animation, covering keyframe animation, phasing animation, cinematic animation, and architectural animation techniques.
 
-## 关键帧动画
+## Keyframe Animation
 
-- 关键帧创建动画指南
-- 景深动画效果
-- Sync Pivot 用于门开关旋转动画
+- Guide to creating animations with keyframes
+- Depth of field animation effects
+- Sync Pivot for door opening/closing rotation animation
 
-## 渐变动画 (Phasing)
+## Phasing Animation
 
-- 最简便的渐变动画创建
-- 室内渐变动画
-- 展示建筑从无到有的过程
+- The easiest way to create phasing animations
+- Interior phasing animation
+- Showcasing the building process from scratch
 
-## 电影级动画
+## Cinematic Animation
 
-- 电影级动画创建
-- 商业街区快捷动画渲染
-- 建筑动画工具的艺术
+- Creating cinematic animation
+- Quick animation rendering for commercial streets
+- The art of architectural animation tools
 
-## 动态图形
+## Motion Graphics
 
-- Motion Graphics 设计
-- D5 Render 动画工作流
+- Motion Graphics design
+- D5 Render animation workflow
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

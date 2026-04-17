@@ -24,42 +24,42 @@ sources:
 tags: [blog, ai, rendering, agent, workflow]
 ---
 
-D5 Render 博客中关于 AI 功能的文章合集，涵盖 D5 2.10~3.0 版本中 15+ AI 功能的发展和应用。
+A collection of D5 Render blog articles on AI features, covering the development and application of 15+ AI features across D5 versions 2.10 through 3.0.
 
-## D5 Render AI 功能演进
+## D5 Render AI Feature Evolution
 
-### 2.10 版本
-- 引入 AI 渲染技术
-- NVIDIA DLSS 4 集成
+### Version 2.10
+- Introduced AI rendering technology
+- NVIDIA DLSS 4 integration
 
-### 2.11 版本
-- AI 智能工具套件
-- AI Agent 初版
-- AI 渲染大幅提升设计效率
+### Version 2.11
+- AI smart tool suite
+- AI Agent initial release
+- AI rendering significantly boosts design efficiency
 
-### 3.0 版本
-- **15+ 内置 AI 功能**
-- AI Agent 全面升级:
-  - **AI Scene Match**: 文字描述→参考图→自动匹配光照和后处理
-  - **AI Asset Recommendation**: 图像识别/文本检索推荐资产
-  - **AI Image to 3D**: 参考图生成 3D 模型
-- **优化 AI 工具**:
-  - AI PBR Material Snap: 增强匹配精度和结果多样性
-  - AI Enhancer: 更清晰的图像定义，专门优化室内项目
+### Version 3.0
+- **15+ built-in AI features**
+- AI Agent comprehensive upgrade:
+  - **AI Scene Match**: Text description → reference image → automatic lighting and post-processing matching
+  - **AI Asset Recommendation**: Image recognition / text search for asset recommendations
+  - **AI Image to 3D**: Generate 3D models from reference images
+- **Enhanced AI tools**:
+  - AI PBR Material Snap: Improved matching accuracy and result diversity
+  - AI Enhancer: Sharper image definition, specifically optimized for interior projects
 
-## AI 在建筑行业的应用趋势
+## AI Adoption Trends in Architecture
 
-- AI 不会取代传统渲染，而是增强工作流
-- AI 渲染在建筑行业的采纳率持续上升
-- 景观建筑师受益于 AI 自动化种植设计
-- AI 从概念设计阶段即可介入
+- AI will not replace traditional rendering, but rather enhance workflows
+- AI rendering adoption rate continues to rise in the architecture industry
+- Landscape architects benefit from AI-automated planting design
+- AI can be integrated from the conceptual design phase onward
 
-## AI 工作流实践
+## AI Workflow Practices
 
-- AI 图生图工作流 (D5 Lite)
-- AI 材质生成与纹理优化
-- AI 氛围匹配实现快速场景搭建
-- Wabi-sabi 风格等艺术化 AI 工作流
-- 雨天街景 AI 工作流
+- AI image-to-image workflow (D5 Lite)
+- AI material generation and texture optimization
+- AI atmosphere matching for rapid scene setup
+- Artistic AI workflows such as Wabi-sabi style
+- Rainy street scene AI workflow
 
-*来源: D5 Render Blog, 2024-2026*
+*Source: D5 Render Blog, 2024-2026*

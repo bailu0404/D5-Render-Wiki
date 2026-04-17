@@ -8,51 +8,51 @@ sources:
 tags: [widget, extension, stage-light, projector, vr, merge]
 ---
 
-D5 Widget 是 D5 Render 的定制化扩展模块，在保持简洁性的同时提供高级功能。通过 Menu > Preference > Widget 管理启用/禁用。
+D5 Widget is D5 Render's customization extension module, providing advanced features while maintaining simplicity. Enable/disable via Menu > Preference > Widget.
 
-## 可用 Widget
+## Available Widgets
 
 ### Advanced Image Rendering
-- 支持 .png/.jpg/.tga/.tif/.exr 格式
-- 启用通道选择
+- Supports .png/.jpg/.tga/.tif/.exr formats
+- Enables channel selection
 
 ### Advanced Video Rendering
-- 支持 .mp4/.avi 格式
-- 序列帧支持 .png/.exr 含通道选择
+- Supports .mp4/.avi formats
+- Image sequence supports .png/.exr with channel selection
 
 ### Advanced Camera Tool (Beta)
-- 高级相机控制参数
+- Advanced camera control parameters
 
 ### Color Grading
-- 精确控制中间调、阴影、高光和全局色调值
-- 集成在 Effect 面板中
+- Precise control of midtones, shadows, highlights, and global tone values
+- Integrated in the Effect panel
 
 ### D5 SR Image Rendering (Beta)
-- 基于 D5 SR 超分辨率技术的图像渲染
+- Image rendering based on D5 SR super-resolution technology
 
 ### Frame Rate
-- 实时显示帧率信息
+- Real-time display of frame rate information
 
 ### Merge Project (Beta)
-- 合并最多 10 个项目文件
-- 支持选择性合并模型、灯光、场景等
-- 三种打开方式: Launcher / 右键项目 / 编辑中菜单
+- Merge up to 10 project files
+- Supports selective merging of models, lights, scenes, etc.
+- Three ways to open: Launcher / Right-click project / Menu during editing
 
 ### Projector
-- 矩形投影灯光源
-- 支持图片 (jpg/png/bmp) 和视频 (mp4/avi/wmv) 投影
-- 支持 UV 控制和薄雾效果
+- Rectangular projection light source
+- Supports image (jpg/png/bmp) and video (mp4/avi/wmv) projection
+- Supports UV control and haze effects
 
 ### Section Tools
-- 剖面工具，支持剖面渲染
+- Section tools, supporting section rendering
 
 ### Stage Light
-- 专业舞台灯光模拟
-- 图案片 (Gobo)、棱镜分光、旋转、烟雾效果
-- 亮度、光圈、衰减半径可调
+- Professional stage light simulation
+- Gobo, prism splitting, rotation, and smoke effects
+- Adjustable brightness, aperture, and attenuation radius
 
 ### VR (Beta)
-- 支持 SteamVR 设备 (HTC Vive, Oculus Rift 等)
-- 虚拟现实场景探索
+- Supports SteamVR devices (HTC Vive, Oculus Rift, etc.)
+- Virtual reality scene exploration
 
-*来源: [[src-manual-hardware-preference]], [[src-blog-camera-rendering]]*
+*Sources: [[src-manual-hardware-preference]], [[src-blog-camera-rendering]]*

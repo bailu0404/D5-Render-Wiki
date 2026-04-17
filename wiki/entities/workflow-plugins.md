@@ -18,48 +18,48 @@ sources:
 tags: [workflow, plugin, sync, livesync, sketchup, rhino, revit, 3ds-max, blender, archicad]
 ---
 
-D5 Render 的全系列工作流插件，支持主流建模软件与 D5 Render 之间的模型同步和实时同步。
+D5 Render's full suite of workflow plugins supports model sync and real-time sync between mainstream modeling software and D5 Render.
 
-## 两种同步模式
+## Two Sync Modes
 
-### D5 Sync（同步插件）
-非实时同步 — 将模型数据从建模软件导出到 D5 Render，支持模型更新和替换。
+### D5 Sync
+Non-real-time sync — exports model data from modeling software to D5 Render, supporting model updates and replacement.
 
-### D5 LiveSync（实时同步插件）
-实时同步 — 建模软件中的修改即时反映在 D5 Render 视口中，实现"所见即所得"的工作流。
+### D5 LiveSync
+Real-time sync — modifications in the modeling software are instantly reflected in the D5 Render viewport, enabling a WYSIWYG workflow.
 
-## 支持的建模软件
+## Supported Modeling Software
 
-| 软件 | Sync | LiveSync | 备注 |
-|------|------|----------|------|
-| **SketchUp** | ✓ | ✓ | 最完整支持，2017+ |
-| **Rhino** | ✓ | ✓ | Rhino 6.5+ |
-| **3ds Max** | ✓ | ✓ (Beta) | 支持 V-Ray/Corona 对照表 |
-| **Revit** | ✓ | — | 非实时同步 |
-| **ArchiCAD** | ✓ | ✓ | ArchiCAD 26/27 |
-| **Blender** | ✓ | — | 非实时同步 |
-| **VectorWorks** | — | ✓ | 仅实时同步 |
-| **Cinema 4D** | ✓ | — | 非实时同步 |
+| Software | Sync | LiveSync | Notes |
+|----------|------|----------|-------|
+| **SketchUp** | Yes | Yes | Most complete support, 2017+ |
+| **Rhino** | Yes | Yes | Rhino 6.5+ |
+| **3ds Max** | Yes | Yes (Beta) | Supports V-Ray/Corona comparison tables |
+| **Revit** | Yes | — | Non-real-time sync |
+| **ArchiCAD** | Yes | Yes | ArchiCAD 26/27 |
+| **Blender** | Yes | — | Non-real-time sync |
+| **VectorWorks** | — | Yes | LiveSync only |
+| **Cinema 4D** | Yes | — | Non-real-time sync |
 
-## 3ds Max 特殊功能
+## 3ds Max Special Features
 
-- **V-Ray 功能对照表**: 列出 V-Ray 材质/灯光在 D5 中的对应情况
-- **Corona 功能对照表**: Corona 材质/灯光的兼容性映射
-- LiveSync 目前为 Beta 版本
+- **V-Ray Feature Comparison Table**: Lists V-Ray material/light mappings in D5
+- **Corona Feature Comparison Table**: Corona material/light compatibility mapping
+- LiveSync is currently in Beta
 
 ## D5 Converter
 
-D5 Sync 插件的核心组件，负责模型转换和同步：
-- 支持 `.d5a` 格式输出
-- 支持材质自动转换
-- 支持模型更新和替换
+The core component of the D5 Sync plugin, responsible for model conversion and synchronization:
+- Supports `.d5a` format output
+- Supports automatic material conversion
+- Supports model updates and replacement
 
-## 通用问题处理
+## Common Troubleshooting
 
-- 插件安装与卸载
-- 从 Converter 启动 D5 的常见错误
-- 同步超时问题
-- 坐标系方向不一致
-- 文件组结构对齐问题
+- Plugin installation and uninstallation
+- Common errors when launching D5 from Converter
+- Sync timeout issues
+- Coordinate system orientation inconsistencies
+- File group structure alignment issues
 
-*来源: [[src-manual-workflow-plugins]], [[src-blog-workflow-plugins]]*
+*Sources: [[src-manual-workflow-plugins]], [[src-blog-workflow-plugins]]*

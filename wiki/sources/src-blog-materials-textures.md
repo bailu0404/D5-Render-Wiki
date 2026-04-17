@@ -23,45 +23,45 @@ sources:
 tags: [blog, material, texture, pbr, glass, metal, displacement]
 ---
 
-D5 Render 博客中关于材质与纹理的文章合集，涵盖 PBR 材质系统、各模板材质技巧和 AI 材质工具。
+A collection of D5 Render blog articles on materials and textures, covering the PBR material system, material techniques for various templates, and AI material tools.
 
-## PBR 材质工作流
+## PBR Material Workflow
 
-- AI PBR Material Snap: 照片秒变 PBR 材质
-- AI 材质生成: 一键生成完整 PBR 贴图集
-- AI Make Seamless: 消除纹理拼接缝
-- 免费 PBR 纹理资源
+- AI PBR Material Snap: Turn photos into PBR materials in seconds
+- AI Material Generation: Generate complete PBR texture sets with one click
+- AI Make Seamless: Eliminate texture tiling seams
+- Free PBR texture resources
 
-## 特殊材质技巧
+## Special Material Techniques
 
-### 玻璃材质
-- 透明材质完整指南
-- 玻璃渲染真实感技巧
-- 半透明材质在建筑渲染中的应用
+### Glass Materials
+- Complete guide to transparent materials
+- Tips for realistic glass rendering
+- Semi-transparent materials in architectural rendering
 
-### 金属材质
-- 超真实金属纹理创建方法
-- 反射效果精细控制
+### Metal Materials
+- Methods for creating ultra-realistic metal textures
+- Fine control of reflection effects
 
-### 布料/天鹅绒
-- 天鹅绒材质实现方法
-- SSS 次表面散射材质
+### Fabric / Velvet
+- How to achieve velvet materials
+- SSS (Subsurface Scattering) materials
 
-### 置换贴图
-- [[displacement-mapping|置换贴图]] vs 视差贴图
-- 快速制作置换纹理
-- True Displacement 使用指南
+### Displacement Mapping
+- [[displacement-mapping|Displacement mapping]] vs parallax mapping
+- Quick way to create displacement textures
+- True Displacement usage guide
 
-### 其他材质
-- 自发光材质照明
-- 圆角材质 (Round Corner)
-- 贴花 (Decals) 使用
-- 水粒子景观渲染
+### Other Materials
+- Emissive material lighting
+- Round Corner materials
+- Decals usage
+- Water particle landscape rendering
 
-## AI 增强材质
+## AI-Enhanced Materials
 
-- AI Ultra HD Texture: 提升纹理分辨率
-- AI Material Match: 智能材质匹配
-- AI Make Seamless: 无缝纹理生成
+- AI Ultra HD Texture: Enhance texture resolution
+- AI Material Match: Intelligent material matching
+- AI Make Seamless: Seamless texture generation
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

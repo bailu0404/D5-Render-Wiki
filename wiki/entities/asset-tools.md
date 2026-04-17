@@ -1,5 +1,5 @@
 ---
-title: 资产工具
+title: Asset Tools
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -10,17 +10,17 @@ tags:
   - landscape
 ---
 
-# 资产工具
+# Asset Tools
 
-D5 Render 的资产工具，帮助用户轻松实现自然或规整的景观设计。
+D5 Render's asset tools help users easily achieve natural or structured landscape designs.
 
 > "Landscape Design with Ease"
 
-## 相关概念
+## Related Concepts
 
-- [[efficiency-tools]] — 场景构建工具
-- [[pbr-materials]] — 材质资产
+- [[efficiency-tools]] — Scene building tools
+- [[pbr-materials]] — Material assets
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

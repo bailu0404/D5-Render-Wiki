@@ -27,91 +27,91 @@ sources:
 tags: [manual, material, pbr, texture, uv, displacement]
 ---
 
-D5 Render 用户手册的材质系统章节，涵盖 10 种材质模板、贴图通道、UV 控制和各模板特有参数。
+The Material System chapter of the D5 Render user manual, covering 10 material templates, texture map channels, UV controls, and template-specific parameters.
 
-## 材质参数面板
+## Material Parameters Panel
 
-通过点击模型表面或使用"材质拾取器"工具（快捷键 `I`）选择材质，右侧面板显示材质检查器。
+Select a material by clicking on the model surface or using the Material Picker tool (shortcut key `I`); the right panel displays the material inspector.
 
-### 基本工具
-- **Duplicate**: 复制当前材质参数
-- **Add to local**: 将材质添加到本地库
-- **Reset**: 恢复材质参数到初始状态
+### Basic Tools
+- **Duplicate**: Copy current material parameters
+- **Add to local**: Add the material to the local library
+- **Reset**: Restore material parameters to their initial state
 
-## 10 种材质模板
+## 10 Material Templates
 
-1. **Custom** — 自定义模板，完整 PBR 参数控制
-2. **Transparent** — 透明材质（玻璃等），支持 [[caustics|焦散]]
-3. **Water** — 水材质，带流动动画效果
-4. **Displacement** — [[displacement-mapping|置换贴图]]材质
-5. **Foliage** — 植被材质，支持次表面散射
-6. **Grass** — 草地材质
-7. **Cloth** — 布料材质
-8. **Car Paint** — 车漆材质，带清漆层
-9. **Video** — 视频材质，支持 mp4 等格式
-10. **Custom Alpha** — 自定义透明度材质
+1. **Custom** — Custom template with full PBR parameter control
+2. **Transparent** — Transparent material (glass, etc.), supports [[caustics|caustics]]
+3. **Water** — Water material with flowing animation effects
+4. **Displacement** — [[displacement-mapping|Displacement map]] material
+5. **Foliage** — Vegetation material, supports subsurface scattering
+6. **Grass** — Grass material
+7. **Cloth** — Cloth material
+8. **Car Paint** — Car paint material with clear coat layer
+9. **Video** — Video material, supports mp4 and other formats
+10. **Custom Alpha** — Custom transparency material
 
-## 核心贴图通道
+## Core Texture Map Channels
 
 ### Base Color / Base Color Map
-- 非金属 (Metallic=0): 漫反射颜色
-- 金属 (Metallic=1): 反射颜色
-- 贴图与纯色以 Multiply 模式混合；使用贴图原色时需确保纯色为白色
-- 详细参数: 反转、对比度、色相、饱和度、亮度、独立 UV
+- Non-metallic (Metallic=0): Diffuse color
+- Metallic (Metallic=1): Reflection color
+- Map and solid color are blended in Multiply mode; use solid color white to preserve the map's original colors
+- Detailed parameters: Invert, Contrast, Hue, Saturation, Brightness, Independent UV
 
 ### Normal
-- 法线贴图产生表面凹凸效果
-- D5 自动根据 Base Color Map 生成法线信息
-- 支持法线强度调节（可为负值翻转凹凸）
+- Normal map creates surface bump/indentation effects
+- D5 automatically generates normal information from the Base Color Map
+- Supports normal strength adjustment (can be negative to flip bumps/indentations)
 
 ### Specular
-- 控制非金属的反射率 (F0)
-- Specular 0→1 对应 F0 0%→8%
-- 水为 0.25，玻璃/塑料约 0.5，宝石为 1
+- Controls non-metallic reflectance (F0)
+- Specular 0 to 1 corresponds to F0 0% to 8%
+- Water is 0.25, glass/plastic approximately 0.5, gemstones are 1
 
 ### Roughness
-- 表面微观粗糙度，影响反射模糊程度
-- Roughness 是 Glossiness 的反向
+- Surface micro-roughness, affecting reflection blurriness
+- Roughness is the inverse of Glossiness
 
 ### Metallic
-- PBR 金属/粗糙度工作流的核心参数
-- 0 = 非金属，1 = 金属
-- 0~1 之间的值用于锈蚀、灰尘等混合材质
+- Core parameter of the PBR metalness/roughness workflow
+- 0 = non-metallic, 1 = metallic
+- Values between 0 and 1 are used for mixed materials such as rust, dust, etc.
 
 ### AO
-- 环境光遮蔽通道，与 Base Color 相乘增强角落和缝隙阴影
-- AO Multiplier 范围 0-1
+- Ambient occlusion channel, multiplied with Base Color to enhance shadows in corners and crevices
+- AO Multiplier range 0-1
 
 ### Emissive
-- 材质自发光
-- 参数: 强度、颜色、是否投射阴影
+- Material self-illumination
+- Parameters: Intensity, Color, Cast Shadow toggle
 
-## UV 控制
+## UV Controls
 
-全局 UV 参数：
-- **Stretch**: 沿 UV 方向拉伸纹理
-- **Offset**: UV 偏移
-- **Rotate**: 纹理旋转 (0-360°)
-- **Triplanar**: 复杂物体三平面映射
-- **Blend Amount**: 三平面接缝混合
+Global UV parameters:
+- **Stretch**: Stretch texture along the UV direction
+- **Offset**: UV offset
+- **Rotate**: Texture rotation (0-360 degrees)
+- **Triplanar**: Triplanar mapping for complex objects
+- **Blend Amount**: Triplanar seam blending
 
-## 特殊材质模板参数
+## Special Material Template Parameters
 
-### Water 模板
-- 带流动动画效果
-- 特殊参数: Flow Velocity（流速）、Depth（深度，控制光线吸收）
-- Specular 固定为 0.25，IOR 固定为 1.33
-- 水面模型需为单面，下方需有平面作为水底
+### Water Template
+- Features flowing animation effects
+- Special parameters: Flow Velocity, Depth (controls light absorption)
+- Specular is fixed at 0.25, IOR is fixed at 1.33
+- The water surface model must be single-sided; a plane below is needed as the water bottom
 
-### Displacement 模板
-- 支持 Parallax 和 True Displacement 两种模式
-- True Displacement 参数: Subdivision Level、Vertical Offset、Maintain Continuity、Remesh
-- 支持 Opacity Map 实现镂空效果
+### Displacement Template
+- Supports Parallax and True Displacement modes
+- True Displacement parameters: Subdivision Level, Vertical Offset, Maintain Continuity, Remesh
+- Supports Opacity Map for cutout effects
 
-### SSS（次表面散射）模板
-- 适用于皮肤、蜡、玉石等半透明材质
-- 特殊参数: Subsurface Color、Scatter Radius
+### SSS (Subsurface Scattering) Template
+- Suitable for translucent materials such as skin, wax, jade, etc.
+- Special parameters: Subsurface Color, Scatter Radius
 
 ## Invisible in Raytracing
 
-勾选后材质不参与光照（漫反射）计算，可见于相机和反射，但不投射阴影和反弹光。开启 Emissive 时自发光同样不参与 GI 计算。
+When checked, the material does not participate in lighting (diffuse) calculations. It is visible to the camera and in reflections, but does not cast shadows or bounce light. When Emissive is enabled, self-illumination similarly does not participate in GI calculations.

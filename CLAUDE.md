@@ -45,7 +45,7 @@ tags: [relevant tags]
 - When creating a new page, ensure it is linked from at least one existing page (no orphans)
 
 ### Content style
-- Write in clear, concise Chinese (or English as appropriate for the source material)
+- Write in clear, concise English
 - Lead with a one-sentence definition or summary
 - Use headings to organize sections
 - Include source citations: reference the raw source file at the end of relevant sections
@@ -104,15 +104,15 @@ This wiki is designed for AI agents to understand D5 Render. Recommended usage:
 
 ## Remote Access (GitHub Pages)
 
-Wiki 已部署到 GitHub Pages，当本地没有仓库时，Agent 可通过 HTTP 远程查阅：
+The wiki is deployed to GitHub Pages. When the local repository is unavailable, agents can access it remotely via HTTP:
 
-1. **查索引** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/manifest.json` → 按名称/标签搜索页面
-2. **看速查** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/wiki/compact.md` → 全局速查表
-3. **读页面** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/wiki/entities/xxx.md` → 深读具体页面
+1. **Search index** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/manifest.json` → search pages by name/tags
+2. **Quick reference** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/wiki/compact.md` → global cheat sheet
+3. **Read pages** — `WebFetch https://bailu0404.github.io/D5-Render-Wiki/wiki/entities/xxx.md` → deep-read specific pages
 
-**Wikilink 远程解析**：`[[page-name]]` → 在 manifest.json 中查找 page-name 的 path → 拼接 `base_url + "/" + path`
+**Wikilink remote resolution**: `[[page-name]]` → find page-name's path in manifest.json → concatenate `base_url + "/" + path`
 
-**优先级**：本地有 wiki 仓库时直接读文件（更快）；本地没有时走 GitHub Pages 远程访问。
+**Priority**: When the local wiki repository is available, read files directly (faster); when unavailable, use GitHub Pages remote access.
 
 ## Rules
 

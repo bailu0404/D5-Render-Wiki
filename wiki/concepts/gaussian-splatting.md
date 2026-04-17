@@ -8,37 +8,37 @@ sources:
 tags: [gaussian-splatting, 3d-scan, xr, point-cloud]
 ---
 
-3D Gaussian Splatting 是一种新兴的 3D 场景表示技术，通过数百万个带有颜色和透明度的高斯椭球体重建真实场景，比传统摄影测量更快速、更清晰。D5 Render 3.0 原生支持此技术。
+3D Gaussian Splatting is an emerging 3D scene representation technique that reconstructs real-world scenes using millions of Gaussian ellipsoids with color and transparency, delivering faster and clearer results than traditional photogrammetry. D5 Render 3.0 natively supports this technology.
 
-## 技术原理
+## Technical Principles
 
-- 用大量高斯椭球体 (Gaussians) 表示 3D 空间
-- 每个高斯体具有: 位置、颜色、透明度、尺寸、旋转
-- 从视频/照片中自动提取并优化
-- 渲染速度快于传统点云/网格方法
+- Represents 3D space with a large number of Gaussian ellipsoids (Gaussians)
+- Each Gaussian has: position, color, transparency, size, rotation
+- Automatically extracted and optimized from video/photos
+- Rendering is faster than traditional point cloud/mesh methods
 
-## D5 Render 中的支持
+## Support in D5 Render
 
-### MP4 转 3D
-- 上传 MP4 视频自动生成 3D Gaussian Splatting 场景
-- 适合快速获取场地现状 3D 模型
+### MP4 to 3D
+- Upload an MP4 video to automatically generate a 3D Gaussian Splatting scene
+- Ideal for quickly capturing the current site conditions as a 3D model
 
-### 文件导入
-- 支持 `.ply` 格式文件
-- 支持 `.gs` 格式文件
-- 3D 扫描项目可直接导入 D5 Render 场景
+### File Import
+- Supports `.ply` format files
+- Supports `.gs` format files
+- 3D scan projects can be directly imported into D5 Render scenes
 
-### XR Tour 集成
-- [[virtual-tour|XR Tour]] 使用 Gaussian Splatting 技术
-- 将场景转换为高保真 3D 空间
-- 客户可在浏览器中自由探索
-- 视觉更清晰，性能更流畅
+### XR Tour Integration
+- [[virtual-tour|XR Tour]] uses Gaussian Splatting technology
+- Converts scenes into high-fidelity 3D spaces
+- Clients can freely explore in the browser
+- Clearer visuals and smoother performance
 
-## 应用场景
+## Application Scenarios
 
-- 场地现状 3D 扫描导入
-- 建筑周边环境建模
-- 室内空间数字化
-- 沉浸式虚拟漫游
+- 3D scan import of existing site conditions
+- Modeling of surroundings around buildings
+- Digitalization of interior spaces
+- Immersive virtual walkthroughs
 
-*来源: [[src-blog-virtual-tour-xr]]*
+*Sources: [[src-blog-virtual-tour-xr]]*

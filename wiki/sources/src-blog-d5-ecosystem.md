@@ -21,54 +21,54 @@ sources:
 tags: [blog, d5-lite, d5-works, d5-launcher, d5-studio, ecosystem, teams]
 ---
 
-D5 Render 博客中关于 D5 生态系统全流程的文章合集，涵盖 D5 3.0 全流程、D5 Lite/Works/Studio/Launcher 和团队协作。
+A collection of D5 Render blog articles on the D5 ecosystem and full workflow, covering D5 3.0 full workflow, D5 Lite/Works/Studio/Launcher, and team collaboration.
 
-## D5 3.0 全流程
+## D5 3.0 Full Workflow
 
-D5 3.0 引入 "Flow State" 全流程概念：
-1. **[[d5-lite|D5 Lite]]** — 概念探索起点，在 SketchUp 内实时 AI 可视化
-2. **[[d5-works|D5 Works]]** — 资产资源获取，AEC 专业资产库
-3. **D5 Render 3.0** — 高品质最终渲染，15+ AI 功能
+D5 3.0 introduces the "Flow State" full workflow concept:
+1. **[[d5-lite|D5 Lite]]** — Starting point for concept exploration, real-time AI visualization within SketchUp
+2. **[[d5-works|D5 Works]]** — Asset resource acquisition, AEC professional asset library
+3. **D5 Render 3.0** — High-quality final rendering, 15+ AI features
 
-### 关键特性
-- AI 智能核心驱动全流程
-- 无需在多个工具间切换
-- 从概念到最终渲染无缝衔接
+### Key Features
+- AI intelligent core drives the entire workflow
+- No need to switch between multiple tools
+- Seamless transition from concept to final rendering
 
 ## D5 Lite
 
-- SketchUp 内的 AI + 渲染引擎
-- 解决"设置疲劳"问题
-- 概念锁定后自然过渡到 D5 Render
+- AI + rendering engine inside SketchUp
+- Solves the "setup fatigue" problem
+- Natural transition to D5 Render once the concept is locked
 
 ## D5 Works
 
-- AEC 专业资产平台
-- 集成在 [[d5-launcher|Launcher]] 内
-- 高端资产以合理价格提供
+- AEC professional asset platform
+- Integrated within [[d5-launcher|Launcher]]
+- High-end assets at reasonable prices
 
 ## D5 Launcher
 
-- 从 2.11 版本取代欢迎页面
-- 统一入口管理所有 D5 工具
-- 项目管理和资产浏览
+- Replaced the welcome page starting from version 2.11
+- Unified entry point for managing all D5 tools
+- Project management and asset browsing
 
 ## D5 Studio
 
-- 云端预设共享空间
-- 个人空间 + 团队空间
-- 社区精选资产
+- Cloud preset sharing space
+- My Space + Team Space
+- Community curated assets
 
 ## D5 for Teams
 
-- 2.11 版本团队协作升级
-- 多人编辑、评论、SSO
-- 机构采纳和规模化部署
+- Team collaboration upgrade in version 2.11
+- Multi-user editing, comments, SSO
+- Institutional adoption and scalable deployment
 
-## 行业认可
+## Industry Recognition
 
-- G2 建筑渲染品类领先
-- 最佳设计工具产品奖
-- 里程碑时刻
+- G2 leader in architecture rendering category
+- Best Design Tool Product Award
+- Milestone moments
 
-*来源: D5 Render Blog, 2023-2026*
+*Source: D5 Render Blog, 2023-2026*

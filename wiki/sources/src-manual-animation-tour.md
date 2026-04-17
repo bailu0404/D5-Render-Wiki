@@ -16,35 +16,35 @@ sources:
 tags: [manual, animation, virtual-tour, panorama, xr, keyframe]
 ---
 
-D5 Render 用户手册的动画与虚拟漫游章节，涵盖动画路径、关键帧和三种虚拟漫游类型。
+The Animation & Virtual Tour chapter of the D5 Render user manual, covering animation paths, keyframes, and three types of virtual tours.
 
-## 动画路径
+## Animation Paths
 
-### Draw Path（绘制路径）
-自由绘制路径，用于物体沿路径运动。
+### Draw Path
+Freely draw paths for objects to move along.
 
-### Character Path（人物路径）
-人物沿指定路径行走，支持多人物动画。
+### Character Path
+Characters walk along a specified path, supporting multi-character animation.
 
-### Vehicle Path（车辆路径）
-车辆沿路径行驶，支持运动模糊效果。
+### Vehicle Path
+Vehicles drive along a path, supporting motion blur effects.
 
-## 虚拟漫游
+## Virtual Tours
 
-### Panorama Tour（全景漫游）
-将 360° 全景图转为可分享链接，适合快速客户更新。
+### Panorama Tour
+Converts 360-degree panoramic images into shareable links, suitable for quick client updates.
 
-### Spatial Tour（空间漫游）
-集成平面图并设置特定航点，引导观者按结构化叙事浏览空间。
+### Spatial Tour
+Integrates floor plans and sets specific waypoints to guide viewers through the space in a structured narrative.
 
-### XR Tour（XR 漫游）
-基于 [[gaussian-splatting|3D Gaussian Splatting]] 技术，将场景转换为高保真 3D 空间：
-- 支持浏览器自由探索
-- 支持 `.ply` 和 `.gs` 文件导入
-- 3D 扫描项目可直接导入场景
+### XR Tour
+Based on [[gaussian-splatting|3D Gaussian Splatting]] technology, converts scenes into high-fidelity 3D spaces:
+- Supports free exploration in the browser
+- Supports `.ply` and `.gs` file import
+- 3D scan projects can be directly imported into the scene
 
 ### D5 Showreel
-展示平台，管理和编辑漫游项目。
+A showcase platform for managing and editing tour projects.
 
 ### Tour Editor
-漫游编辑器，统一管理全景、空间和 XR 漫游项目。
+A tour editor that provides unified management of panorama, spatial, and XR tour projects.

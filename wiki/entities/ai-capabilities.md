@@ -1,5 +1,5 @@
 ---
-title: AI 能力
+title: AI Capabilities
 created: 2026-04-10
 updated: 2026-04-10
 sources:
@@ -9,16 +9,16 @@ tags:
   - ai
 ---
 
-# AI 能力
+# AI Capabilities
 
-D5 Render 集成的 AI 自动化功能，旨在为设计和可视化工作流提供更高效的创作方式。
+AI automation features integrated into D5 Render, designed to provide more efficient creation methods for design and visualization workflows.
 
 > "AI Integration for More Efficient Creation"
 
-## 相关概念
+## Related Concepts
 
-- [[real-time-rendering]] — AI 与实时渲染的协同
+- [[real-time-rendering]] — Synergy between AI and real-time rendering
 
-## 来源
+## Sources
 
 - [[src-d5-render-features]]

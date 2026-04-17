@@ -14,33 +14,33 @@ sources:
 tags: [animation, keyframe, path, phasing, video]
 ---
 
-D5 Render 的动画系统支持路径动画、关键帧动画和渐变动画，可直接输出视频格式的动画效果。
+D5 Render's animation system supports path animation, keyframe animation, and phasing animation, with direct video format output.
 
-## 动画路径
+## Animation Paths
 
-### Draw Path（绘制路径）
-自由绘制运动路径，物体沿路径运动。
+### Draw Path
+Freely draw motion paths; objects move along the path.
 
-### Character Path（人物路径）
-人物沿指定路径行走，支持多人物动画场景。
+### Character Path
+Characters walk along a specified path, supporting multi-character animation scenes.
 
-### Vehicle Path（车辆路径）
-车辆沿路径行驶，配合运动模糊效果增加真实感。
+### Vehicle Path
+Vehicles drive along a path, paired with motion blur effects for added realism.
 
-## 关键帧动画
+## Keyframe Animation
 
-- 在时间轴上设置关键帧
-- 支持相机运动、光照变化、材质动画
-- 支持景深动画（焦点距离随时间变化）
+- Set keyframes on the timeline
+- Supports camera motion, lighting changes, and material animation
+- Supports depth of field animation (focus distance changes over time)
 
-## 渐变动画（Phasing Animation）
+## Phasing Animation
 
-D5 Render 提供最简便的渐变动画创建方式：
-- 展示建筑从无到有的建造过程
-- 适合设计演示和客户汇报
+D5 Render provides the easiest way to create phasing animations:
+- Show the construction process of a building from scratch
+- Ideal for design presentations and client reviews
 
-## 电影级动画
+## Cinematic Animation
 
-结合相机控制、景深、运动模糊和后处理特效，创建电影级别的动画效果。
+Combine camera controls, depth of field, motion blur, and post-processing effects to create cinematic-quality animation.
 
-*来源: [[src-manual-animation-tour]], [[src-blog-animation]]*
+*Sources: [[src-manual-animation-tour]], [[src-blog-animation]]*

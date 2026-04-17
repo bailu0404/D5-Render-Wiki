@@ -44,87 +44,87 @@ sources:
 tags: [manual, hardware, preference, system, view, camera, shortcuts, model-management]
 ---
 
-D5 Render 用户手册的硬件配置、偏好设置、视图控制与模型管理章节。
+The Hardware Configuration, Preferences, View Controls & Model Management chapter of the D5 Render user manual.
 
-## 硬件
+## Hardware
 
-### 系统要求
-- **最低**: GTX 1060 6GB, Win10 1809+
-- **推荐**: RTX 2060+, 471.68+ 驱动
-- CPU 对 D5 影响较小，主要依赖 GPU
+### System Requirements
+- **Minimum**: GTX 1060 6GB, Win10 1809+
+- **Recommended**: RTX 2060+, 471.68+ driver
+- CPU has minimal impact on D5; the software primarily relies on GPU
 
-### 显卡支持
-- 支持 NVIDIA RTX 系列（RTX 20/30/40/50 系列）
-- 不支持 AMD 和 Intel 集成显卡
+### GPU Support
+- Supports NVIDIA RTX series (RTX 20/30/40/50 series)
+- Does not support AMD or Intel integrated graphics
 
-### 诊断工具
-- **Hardware Testing**: 启动时自动检测配置是否达标
-- **Benchmark**: 硬件测试工具，评估渲染性能
-- **Support Tool**: 收集系统信息和日志用于技术支持
-- **Statistics**: 实时显示帧率、GPU 使用率、显存占用等参数
+### Diagnostic Tools
+- **Hardware Testing**: Automatically checks at startup whether the configuration meets requirements
+- **Benchmark**: Hardware testing tool that evaluates rendering performance
+- **Support Tool**: Collects system information and logs for technical support
+- **Statistics**: Real-time display of frame rate, GPU usage, VRAM usage, and other parameters
 
-### 常见硬件问题
-- 近处清晰远处模糊 — Mipmap 机制正常现象
-- 远程使用 D5 异常 — 不推荐远程桌面使用
-- 打开场景缓慢 — 与场景大小和硬盘速度相关
+### Common Hardware Issues
+- Clear up close but blurry in the distance — normal behavior due to Mipmap mechanism
+- Abnormal behavior when using D5 remotely — remote desktop usage is not recommended
+- Slow scene opening — related to scene size and disk speed
 
-## 偏好设置
+## Preferences
 
-- **语言**: 支持中文/英文等多语言切换
-- **网络代理**: 支持设置 Web 代理
-- **快捷键**: 支持查看和修改默认快捷键
-- **高分辨率屏幕**: 支持 HiDPI 显示
-- **压缩项目**: 保存压缩项目减小文件体积
-- **渲染设置**: HDRI 分辨率、GI 模式、帧生成等
-- **Widget**: 管理 [[widgets|扩展模块]]
+- **Language**: Supports multi-language switching including Chinese/English
+- **Network Proxy**: Supports Web proxy configuration
+- **Shortcuts**: Supports viewing and modifying default shortcut keys
+- **High Resolution Screen**: Supports HiDPI display
+- **Compressed Project**: Save compressed projects to reduce file size
+- **Render Settings**: HDRI resolution, GI mode, frame generation, etc.
+- **Widget**: Manage [[widgets|extension modules]]
 
-## 视图与相机
+## View & Camera
 
-### Camera（相机）
-- 真实相机参数: 曝光、焦距、[[depth-of-field|景深]]、白平衡
-- 支持水平/垂直 FOV 切换
-- 3.0 新增 Free Mode — 统一 Walk 和 Fly 模式
+### Camera
+- Real camera parameters: exposure, focal length, [[depth-of-field|depth of field]], white balance
+- Supports horizontal/vertical FOV switching
+- 3.0 adds Free Mode — unifies Walk and Fly modes
 
-### Navigation（导航）
-- 键盘 + 鼠标组合操作
-- 3.0 支持切换到 SketchUp/Rhino/3ds Max 导航预设
+### Navigation
+- Keyboard + mouse combination controls
+- 3.0 supports switching to SketchUp/Rhino/3ds Max navigation presets
 
-### Display（显示）
-- 多种预览质量等级
-- 线框/实体/材质显示模式
+### Display
+- Multiple preview quality levels
+- Wireframe/solid/material display modes
 
-### 特殊视图
-- **Parallel Projection**: 平行投影（正交视图）
-- **Section**: 剖面渲染/剖面图
-- **Depth of Field**: 景深效果
-- **Full Screen**: 全屏模式
+### Special Views
+- **Parallel Projection**: Orthographic view
+- **Section**: Section rendering/section diagram
+- **Depth of Field**: Depth of field effect
+- **Full Screen**: Full screen mode
 
-## 模型管理
+## Model Management
 
-### 导入模型
-- 支持格式: .d5a, .skp, .3dm, .fbx, .abc
-- 可通过 [[workflow-plugins|工作流插件]] 从其他建模软件导入
+### Import Models
+- Supported formats: .d5a, .skp, .3dm, .fbx, .abc
+- Can be imported from other modeling software via [[workflow-plugins|workflow plugins]]
 
-### 模型操作
-- 对齐、复制、翻转/镜像
-- 替换模型、同步更新
-- Make Unique — 创建独立副本
-- Sync Pivot — 同步轴心点（用于门开关动画）
+### Model Operations
+- Align, copy, flip/mirror
+- Replace models, sync updates
+- Make Unique — create independent copies
+- Sync Pivot — synchronize pivot points (for door opening/closing animations)
 
-### 资源管理
-- **Object List**: 场景对象列表，管理模型和灯光
-- **Scene List**: 场景列表
-- **Layers**: 图层管理
-- **Imported List**: 已导入模型列表
-- **Auto-save**: 自动保存和备份机制
-- **DRS**: D5 资源系统
+### Resource Management
+- **Object List**: Scene object list for managing models and lights
+- **Scene List**: Scene list
+- **Layers**: Layer management
+- **Imported List**: Imported model list
+- **Auto-save**: Automatic save and backup mechanism
+- **DRS**: D5 Resource System
 
-## 常见弹窗
+## Common Pop-up Windows
 
-- 低 TDR 检测
-- DX12 不支持
-- 灯光数量超限 (4096)
-- 焦散灯光数量超限 (64)
-- 植被数量超限
-- 自发光达到上限
-- 材质无法复用
+- Low TDR detection
+- DX12 not supported
+- Light count limit exceeded (4096)
+- Caustics light count limit exceeded (64)
+- Vegetation count limit exceeded
+- Emissive limit reached
+- Material cannot be reused

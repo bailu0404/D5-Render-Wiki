@@ -9,31 +9,31 @@ sources:
 tags: [d5-works, assets, marketplace, ecosystem]
 ---
 
-D5 Works 是面向建筑、景观和室内设计专业人员的 3D 资产平台，帮助创作者高效获取和管理高品质资源。
+D5 Works is a 3D asset platform for professionals in architecture, landscape, and interior design, helping creators efficiently acquire and manage high-quality resources.
 
-## 核心功能
+## Core Features
 
-### Online Library（在线资产库）
-- 直接浏览和下载 3D 模型、材质等资产
-- 点击资产即开始下载，显示下载进度
-- 默认下载路径: `D5 WorkSpace\content\OtherAssets`
-- 支持自定义单个资产下载位置
-- 右键菜单: 下载、在文件夹中显示、收藏、查看详情、报告问题
+### Online Library
+- Browse and download 3D models, materials, and other assets directly
+- Click an asset to start downloading, with download progress displayed
+- Default download path: `D5 WorkSpace\content\OtherAssets`
+- Supports custom download locations for individual assets
+- Right-click menu: Download, Show in Folder, Favorite, View Details, Report Issue
 
-### My List（我的列表）
-- 查看收藏和已购资产（含免费资产）列表
+### My List
+- View favorited and purchased assets (including free assets)
 
-### 与 D5 生态集成
+### D5 Ecosystem Integration
 
-D5 Works 已集成到 [[d5-launcher|D5 Launcher]] 中，无需切换窗口即可：
-- 源源不断获取专业级 AEC 资产
-- 管理和下载资产，体验与 D5 内置资产库一致
-- 已下载资产可一键添加到 [[d5-lite|D5 Lite]] 或 D5 Render 场景
+D5 Works is integrated into [[d5-launcher|D5 Launcher]], allowing you to:
+- Continuously access professional-grade AEC assets
+- Manage and download assets with an experience consistent with D5's built-in asset library
+- Add downloaded assets to [[d5-lite|D5 Lite]] or D5 Render scenes with one click
 
-## 资产特点
+## Asset Characteristics
 
-- **AEC 专业资源**: 面向建筑/工程/施工行业的专业级资产
-- **价格合理**: 高端资源以可承受的价格提供
-- **即用型**: 资产可直接适配项目
+- **Professional AEC Resources**: Professional-grade assets for the architecture/engineering/construction industry
+- **Affordable Pricing**: High-end resources offered at accessible prices
+- **Ready-to-Use**: Assets can be directly adapted to projects
 
-*来源: [[src-manual-teams-ecosystem]], [[src-blog-d5-ecosystem]]*
+*Sources: [[src-manual-teams-ecosystem]], [[src-blog-d5-ecosystem]]*
