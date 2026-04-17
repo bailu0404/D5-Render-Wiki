@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir -p _deploy
           cp manifest.json _deploy/
+          cp site-readme.md _deploy/README.md
           touch _deploy/.nojekyll
           cp -r wiki _deploy/wiki
 
