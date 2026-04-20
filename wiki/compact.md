@@ -1,7 +1,7 @@
 ---
 title: D5 Render Quick Reference
 created: 2026-04-13
-updated: 2026-04-17
+updated: 2026-04-20
 sources:
   - wiki/entities/
   - wiki/concepts/
@@ -18,7 +18,8 @@ tags:
 
 | Page | Definition |
 |------|-----------|
-| [[d5-lite]] | Concept exploration tool providing real-time AI visualization inside SketchUp, supporting AI image-to-image and real-time rendering engine |
+| [[d5-engine]] | D5's proprietary full-path-tracing real-time engine for spatial design, with GPU SOA optimization and cross-platform DX12/Metal shader compiler |
+| [[d5-lite]] | Concept exploration tool providing real-time AI visualization inside SketchUp, now powered by D5 Engine (3.0+), supporting AI image-to-image and real-time rendering |
 | [[d5-works]] | AEC professional 3D asset platform with integrated online library browsing and downloading, for architecture/engineering/construction industries |
 | [[d5-launcher]] | D5 unified launcher integrating project management, workflow plugins, asset browsing, and account management |
 | [[d5-for-teams]] | Team collaboration solution with 9 enterprise features: multi-user editing, SSO, team asset library, app integrations |
@@ -56,3 +57,15 @@ tags:
 | [[gaussian-splatting]] | 3D Gaussian Splatting technology using Gaussian ellipsoids to represent 3D space, supporting MP4-to-3D and XR Tour |
 | [[xr-technology]] | XR extended reality including VR (SteamVR), AR, MR; D5 implements via XR Tour and VR Widget |
 | [[depth-of-field]] | Depth of field and bokeh, controlling in-focus area through focal distance and aperture, with keyframe animation support |
+
+## CN — Chinese Market
+
+| Page | Definition |
+|------|-----------|
+| [[cn-overview]] | Chinese market overview covering company identity, CN-specific features, academic partnerships, community platforms, and licensing |
+| [[cn-account]] | CN-specific account details: student edition verification process, invoicing, AI material generation quota (50 uses/community), cloud storage (10GB personal / 100GB team) |
+| [[src-cn-news]] | Source summary of 20 CN news articles (2025–2026): D5 3.0/2.11 releases, AI survey, assets, case studies, academic events |
+| [[src-cn-manual-account]] | CN manual: account registration, student edition (学信网 verification), invoicing, AI credits |
+| [[src-cn-manual-ai]] | CN manual: AI Design Assistant commands, material generation (50 uses/community), atmosphere match, ultra-HD texture, seamless |
+| [[src-cn-manual-teams]] | CN manual: Team Edition — org management, multi-user editing, Showreel, SSO, Baidu Netdisk integration, Cesium integration |
+| [[src-cn-manual-system]] | CN manual: hardware requirements, GPU driver notes (Win10 + driver compatibility), scene limits (4096 lights, 64 caustic), error messages |
