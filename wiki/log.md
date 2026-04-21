@@ -58,3 +58,29 @@
 - Translated root pages: index.md, overview.md, compact.md, log.md
 - Translated site-readme.md and updated CLAUDE.md content style rule
 - All new pages created directly in English
+
+## [2026-04-20] ingest | CN News — Batch 1 (raw/cn/news/, 20 articles)
+
+- Sources: 20 articles from `raw/cn/news/` covering D5 3.0, D5 2.11, D5 Engine, AI report, assets, case studies, education
+- Created source summary: [[src-cn-news]] — comprehensive summary of all 20 CN news articles
+- Created new directory `wiki/cn/` for Chinese-market-specific content
+- Created overview page: [[cn-overview]] — Chinese market overview (company, community, CN features, academic partnerships, licensing)
+- Created new entity page: [[d5-engine]] — D5 proprietary real-time path tracing engine (full path tracing, GPU SOA, DX12/Metal shader)
+- Updated [[d5-lite]] entry in compact.md to note D5 Engine integration (3.0+)
+- Updated index.md: added CN section, d5-engine to entities, updated scope and page count (49 pages, 28 sources)
+- Updated compact.md: added d5-engine, cn-overview, src-cn-news entries
+- Key new content: D5 3.0 features (volumetric clouds, ocean, virtual tour, true displacement), AI Design Assistant sub-tools, 2025 AI survey data (85.8% adoption), brand furniture (1206 items), global plants Vol.4, Asia student characters
+
+## [2026-04-20] ingest | CN Manual — Batch 2 (raw/cn/manual/ modules)
+
+- Sources: ~200 files across 30+ modules in `raw/cn/manual/` (docs.d5render.cn)
+- Created 4 source summary pages:
+  - [[src-cn-manual-account]] — account, student edition verification, invoicing, AI credits/cloud quotas
+  - [[src-cn-manual-ai]] — AI Design Assistant commands, material generation quota (50 uses), atmosphere match, ultra-HD texture, seamless
+  - [[src-cn-manual-teams]] — Team Edition: org management, multi-user editing, Showreel, SSO, Baidu Netdisk, Cesium integrations
+  - [[src-cn-manual-system]] — hardware requirements, GPU driver compatibility (Win10 + NVIDIA), scene limits (4096 lights, 64 caustic), error messages
+- Created CN detail page: [[cn-account]] — student edition process (学信网 steps), invoicing, quota tables
+- Updated [[cn-overview]] sources to include manual references
+- Updated index.md CN section with new pages; total pages 55, sources 32
+- Updated compact.md with CN manual source entries
+- Key CN-unique content captured: student verification workflow, material generation 50-use limit, 10GB/100GB cloud quotas, scene hard limits, Win10 + NVIDIA driver warnings, Baidu Netdisk (CN-exclusive) integration

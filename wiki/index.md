@@ -5,7 +5,7 @@
 
 ## Wiki Scope
 
-This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-17. Sources: D5 official manual, official blog, website pages, sales framework, knowledge base, legal documents.
+This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-20. Sources: D5 official manual, official blog, website pages, sales framework, knowledge base, legal documents, Chinese market news (d5render.cn/news), Chinese documentation (docs.d5render.cn).
 
 **Covered**: Features, rendering concepts, workflow plugins, AI tools, asset libraries, team collaboration, virtual tours, animation systems, legal/policy, sales positioning
 **Not covered**: Internal implementation details, API/SDK documentation, pricing and licensing details (beyond overview), third-party plugins not integrated with D5
@@ -81,6 +81,7 @@ This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-1
 - [[virtual-tour]] — Virtual tours (panorama/spatial/XR)
 - [[animation-system]] — Animation system (path/keyframe/phasing)
 - [[widgets]] — Extension modules (stage light/projector/VR/color grading/project merge)
+- [[d5-engine]] — D5 proprietary real-time path tracing engine (full path tracing, GPU SOA, cross-platform shader)
 
 ## Concepts
 
@@ -99,8 +100,31 @@ This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-1
 
 - [[d5-vs-lumion-vs-enscape]] — D5 Render vs Lumion vs Enscape full-dimensional comparison analysis
 
+## CN — Chinese Market
+
+> Pages specific to or primarily relevant for the Chinese market.
+
+### CN Overview
+
+- [[cn-overview]] — Chinese market overview (company, community, academic partnerships, CN-specific features)
+
+### Sources — CN News
+
+- [[src-cn-news]] — CN official news (2025–2026): releases, assets, case studies, academic events
+
+### Sources — CN Manual
+
+- [[src-cn-manual-account]] — CN Manual: Account, student edition verification, AI credits & cloud quotas
+- [[src-cn-manual-ai]] — CN Manual: AI features (Design Assistant commands, material generation, atmosphere match, ultra-HD, seamless)
+- [[src-cn-manual-teams]] — CN Manual: Team Edition (org management, multi-user editing, Showreel, SSO, Baidu Netdisk, Cesium)
+- [[src-cn-manual-system]] — CN Manual: Hardware requirements, GPU driver notes, error messages, scene limits
+
+### CN Detail Pages
+
+- [[cn-account]] — CN account and licensing: student edition process, invoicing, AI/cloud quotas
+
 ---
 
-*Last updated: 2026-04-17*
-*Total pages: 46*
-*Total sources: 26 (1 original + 10 manual + 13 blog + 3 sales/product + 3 legal)*
+*Last updated: 2026-04-20*
+*Total pages: 55*
+*Total sources: 32 (1 original + 10 manual + 13 blog + 3 sales/product + 3 legal + 5 CN)*
