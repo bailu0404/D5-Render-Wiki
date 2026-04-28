@@ -220,11 +220,22 @@ Community edition is permanently free and can be used indefinitely as a trial. F
 
 **Q: 遇到问题去哪里求助？**
 
-See [[cn-support]] for the full support channel map. Quick reference:
-- Software how-to: docs.d5render.cn
-- Technical errors: forum.d5render.cn (互助小组)
-- Billing: cn.myspace.d5render.com
-- Enterprise: d5render.cn/price-form
+取决于订阅版本：
+
+**专业版 / 团队版**：可直接联系人工客服（三个入口任选）：
+1. D5启动器 → 左侧「帮助」→「联系客服」
+2. D5启动器 → 左下角「个人账号」→「联系客服」
+3. D5官网 → 登录个人中心 → 左侧「帮助」→「联系客服」
+
+**社区版**：
+1. 搜索 docs.d5render.cn 或 forum.d5render.cn
+2. 使用 D5 Bot（软件内AI助手）初步排查
+3. 在论坛「互助小组」发帖，官方技术团队24h内回复
+
+账单/订阅问题：cn.myspace.d5render.com
+企业采购：d5render.cn/price-form
+
+See [[cn-support]] for the full channel map.
 
 ---
 

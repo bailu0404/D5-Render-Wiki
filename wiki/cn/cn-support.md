@@ -10,9 +10,33 @@ tags: [cn, support, community, learning, tutorials]
 
 D5 Render's CN support ecosystem spans official documentation, a community forum, video platforms, and in-app AI assistance. This page maps all available channels for users in mainland China.
 
+## Technical Support by Subscription Tier
+
+### 专业版 / 团队版 用户 — 人工客服 (Human Support)
+
+Professional and Team edition subscribers can access live human support through three entry points:
+
+1. **D5启动器** → 左侧「帮助」→ 点击「联系客服」
+2. **D5启动器** → 左下角「个人账号」→ 点击「联系客服」
+3. **D5官网** → 登录D5个人中心 → 左侧「帮助」→ 点击「联系客服」
+
+Human support is available for billing, account, and technical issues specific to paid subscribers.
+
+---
+
+### 社区版 用户 — 自助 + 论坛 (Self-Service + Forum)
+
+Community edition users follow a three-step process:
+
+1. **搜索帮助中心 / 论坛** (docs.d5render.cn or forum.d5render.cn) — search by keyword for existing solutions
+2. **使用 D5 Bot** — in-app AI chatbot for initial troubleshooting and issue identification
+3. **论坛「互助小组」发帖** — if no existing solution found, post in the Mutual Help section; D5's technical support team responds **within 24 hours**
+
+---
+
 ## Official Support Channels
 
-### 帮助中心 / Help Center (Tier 1 — Self-Service)
+### 帮助中心 / Help Center
 **URL**: docs.d5render.cn
 
 The primary CN documentation site. Covers:
@@ -21,30 +45,21 @@ The primary CN documentation site. Covers:
 - Troubleshooting common errors and hardware issues
 - FAQ for account, billing, student edition, AI credits
 
-Best for: step-by-step how-to questions, error message lookup, software settings reference.
-
-### 官方论坛 / Official Forum (Tier 2 — Community + Official)
+### 官方论坛 / Official Forum
 **URL**: forum.d5render.cn
 
 A Discourse-based forum with sections for:
-- 互助小组 (Mutual Help): peer troubleshooting and Q&A
+- 互助小组 (Mutual Help): peer Q&A + official 24h response for Community users
 - 作品分享 (Work Sharing): community renders and project showcases
 - Version update announcements and changelog
-- Scene asset exchange
 
 Stats (2025 year-end): 7,300+ members, 830+ scene submissions.
-
-Best for: specific technical questions, finding community solutions, sharing work.
 
 ### D5 Bot (In-App AI Support)
 An AI chatbot embedded in D5 Render (launched D5 2.11). Provides Chinese-language real-time answers to software usage questions 24/7 without leaving the app. Part of the [[ai-capabilities|AI Design Assistant]] system.
 
-Best for: quick in-app guidance while working.
-
-### 技术支持表单 / Technical Support Form
-For issues not resolved through self-service, users can contact official support through the forum or via dedicated support contact links on d5render.cn.
-
-**Team Edition** users receive priority support through their enterprise account manager.
+### 人工客服 / Human Support
+Accessible via D5 Launcher or D5 Personal Center (see entry points above). **Available to Professional and Team edition subscribers only.**
 
 ## Learning Resources
 
