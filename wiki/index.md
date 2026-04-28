@@ -50,6 +50,12 @@ This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-2
 - [[src-blog-virtual-tour-xr]] — Blog: Virtual tours and XR technology
 - [[src-blog-d5-ecosystem]] — Blog: D5 ecosystem full workflow
 
+## Sources — CN Official Website
+
+- [[src-cn-official-pricing]] — CN official pricing page: four tiers, feature comparison table
+- [[src-cn-official-download]] — CN download page: plugin compatibility matrix, system requirements
+- [[src-cn-official-homepage]] — CN homepage: product matrix, industry solutions, community resources
+
 ## Sources — Original
 
 - [[src-d5-render-features]] — D5 Render official website features page
@@ -122,9 +128,13 @@ This wiki covers D5 Render versions 2.x–3.x, with data current as of 2026-04-2
 ### CN Detail Pages
 
 - [[cn-account]] — CN account and licensing: student edition process, invoicing, AI/cloud quotas
+- [[cn-pricing]] — CN subscription tiers: Community (free) / Professional (¥200/月) / Team / Student
+- [[cn-support]] — CN support channels: help center, forum, D5 Bot, Bilibili, certified instructors
+- [[cn-industry-solutions]] — Industry solutions: architecture, landscape, interior, real estate; plugin recommendations per industry
+- [[cn-sales-faq]] — Sales FAQ: pricing, features, competitor comparisons, enterprise purchasing
 
 ---
 
-*Last updated: 2026-04-20*
-*Total pages: 55*
-*Total sources: 32 (1 original + 10 manual + 13 blog + 3 sales/product + 3 legal + 5 CN)*
+*Last updated: 2026-04-28*
+*Total pages: 62*
+*Total sources: 38 (1 original + 10 manual + 13 blog + 3 sales/product + 3 legal + 5 CN news/manual + 3 CN official)*

@@ -3,6 +3,21 @@
 > Append-only chronological record of wiki operations.
 > Format: `## [YYYY-MM-DD] operation | Description`
 
+## [2026-04-28] ingest | CN Official Website (d5render.cn pricing / download / homepage)
+
+- Sources: `raw/cn/official/pricing.md`, `raw/cn/official/download.md`, `raw/cn/official/homepage.md`
+- Tool used: cn_official_scraper.py (new script for periodic re-scraping on version releases)
+- Created 3 source summary pages:
+  - [[src-cn-official-pricing]] — four pricing tiers, feature comparison table
+  - [[src-cn-official-download]] — plugin compatibility matrix, CN CDN download links
+  - [[src-cn-official-homepage]] — product matrix, industry solutions, community channels
+- Created 4 CN wiki pages:
+  - [[cn-pricing]] — full pricing breakdown (Community free / Pro ¥200/月 / Team / Student free)
+  - [[cn-support]] — support channels, learning resources, community platforms
+  - [[cn-industry-solutions]] — architecture, landscape, interior, real estate workflows; plugin-to-industry mapping
+  - [[cn-sales-faq]] — sales FAQ covering pricing, features, competitor Q&A, enterprise purchasing
+- Updated [[index]] with new pages (total: 62 pages, 38 sources)
+
 ## [2026-04-10] ingest | D5 Render Features (Official Website)
 
 - Source: `raw/D5 Render.md`
